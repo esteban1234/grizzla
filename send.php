@@ -5,18 +5,23 @@
 	$tel = $_POST['tel'];
 	$comentario = $_POST['coment'];
 
-	$mensaje = "Mensaje de Bienvenida ";
-<<<<<<< HEAD
-	$cabecera = "From:" . $name .' '.$apellido;
-=======
-	// $cabecera = "From: Santiago Balina R<ballina.santiago@gmail.com>";
->>>>>>> parent of 5539c2c... Revert "rediseño portafolio"
+	// $mensaje = "";
 
-	if(mail("albert1047@hotmail.com","Mensaje de Prueba 2", $mensaje)){
-		echo "Mensaje exitoso";
+	$cabecera = "From:" . $name .' '.$apellido;
+
+
+	if(mail("albert1047@hotmail.com","Mensaje de Contacto", $email, $tel, $comentario)){
+		echo " <script type='text/javascript'>
+	               alert('Enviado Exitosamente');
+	               window.location='index.html';
+               </script> ";
+
 	}
 
 	else{
-		echo "Errror al enviar";
+		echo " <script type='text/javascript'>
+	               alert('Error al Enviar');
+	               window.location='index.html';
+               </script> ";
 	}
  ?>
