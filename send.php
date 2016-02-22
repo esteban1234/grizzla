@@ -7,10 +7,10 @@
 
 	// $mensaje = "";
 
-	$cabecera = "From:" . $name .' '.$apellido;
+	$cabecera = "From:" . $name .$apellido;
 
 
-	if(mail("albert1047@hotmail.com","Mensaje de Contacto", $email, $tel, $comentario)){
+	if(mail("albert1047@hotmail.com","Mensaje de Contacto", "Correo: ". $email, "Telefono: " .$tel, "Comentario" .$comentario)){
 		echo " <script type='text/javascript'>
 	               alert('Enviado Exitosamente');
 	               window.location='index.html';
