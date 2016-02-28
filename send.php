@@ -7,7 +7,7 @@
 
 	// $mensaje = "";
 
-	$cabecera = "From:" . $name .$apellido;
+	$cabecera = "From:" .$name.' '.$apellido;
 
 
 	if(mail("albert1047@hotmail.com","Mensaje de Contacto", "Correo: ". $email, "Telefono: " .$tel, "Comentario" .$comentario)){
