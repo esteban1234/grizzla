@@ -19,11 +19,15 @@ function scrollMenu(){
 
 	var submenu = $("#menu");
 	var altoquien = $("#quien").outerHeight();
+	// var contenMenu = $(".contenMenu > a");
 
 	height = $(event.target).scrollTop();
 
-	if(height > 530 ){
+	if(height > 560){
 		submenu.addClass('active2');
+		// submenu.addClass('Changemenu');
+		// contenMenu.addClass('Changenew');
+
 		// $(".logo").css("display", "none");
 		// $(".subMenu").css("height",70, "border","2px solid green");
 		// $(".subNavBtn").css("height",15, "padding","25px 2% 0 2%");
@@ -32,12 +36,14 @@ function scrollMenu(){
 	{
 		// $(".logo").css("display", "inline-block");
 		submenu.removeClass('active2');
+		// submenu.removeClass('Changemenu');
+		// contenMenu.removeClass('Changenew');
 	}
 
 
 	if($(this).scrollTop() > secciones[0]-90 && $(this).scrollTop() < secciones[1]-90){
 		$("#menu a").eq(0).addClass("active");
-		$(".submenu").addClass("active2");
+		// $(".submenu").addClass("active2");
 	}
 	else{
 		$("#menu a").eq(0).removeClass("active");
