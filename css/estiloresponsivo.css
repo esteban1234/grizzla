@@ -5,21 +5,17 @@
 			
 			.subMenu
 			{
-				/*border: 2px solid yellow;*/
 				width: 100%;
-				/*display: none;*/
 			}
 
 			.subMenu .logo
 			{
-				/*border: 2px solid  red;*/
 				float: left;
 				width: 45%;
 			}
 
 			.subMenu .inner
 			{
-				/*border: 2px solid black;*/
 				margin: 0;
 				width: 100%;
 			}
@@ -27,32 +23,25 @@
 
 			.subMenu .contenMenu
 			{
-				/*border: 2px solid blue;*/
 				width: 85%;
 				overflow: hidden;
 				padding: 0;
-				/*margin-top: 1%;*/
 				position: fixed;
 				background: #D4D4D4;
 				height: auto;
 				left:-100%;
-				/*display: none;*/
 			}
 
 
 
 			.subMenu .subNavBtn
 			{
-				/*display: block;*/
 				width: 100%;
-				/*border: 2px solid red;*/
-				/*padding: 0;*/
 				line-height: 50px;
 				font-size: 20px;
 				text-align: left;
 				padding: 0px 0px 0px 60px;
 				color: #000;
-				/*border-bottom: */
 				border-bottom:1px solid rgba(255,255,255, .9);
 			}
 
@@ -62,7 +51,6 @@
 				display: block;
 				float: right;
 				color: #000;
-				/*width: 100%;*/
 				padding: 5px 10px;
 				vertical-align: top;
 				margin-top: 3%;
@@ -81,18 +69,14 @@
 
 			.sTop
 			{
-				/*border: 2px solid orange;*/
 				width: 100%;
 			}
 
 			.sTop .conten-inicio
 			{
-				/*border: 2px solid red;*/
 				width: 80%;
 				margin-left: 0;
 				margin-top: 68px;
-
-				/*margin: 0;*/
 			}
 
 
@@ -107,7 +91,6 @@
 				  font-family: 'Merriweather', serif;
 				  font-size: 40px;
 				  width: 100%;
-				   /*border: 2px red solid;*/
 				}
 
 				.subtitle
@@ -117,27 +100,23 @@
 				  text-align: left;
 				  margin-bottom: 50px;
 				  width: 70%;
-				  /*border: 2px red solid;*/
 				}
 
 				/*------------------------------------*/
 
 				.secciones
-			{ 
-			    /*position: absolute;*/
-			    top: 100%;
-			    /*border:2px green solid;*/
-			    width: 100%;
-			}
+			    { 
+				    top: 100%;
+				    width: 100%;
+			    }
 
 			/*quienes somos*/ 
 
 			.icono{
 				  color: #0EAB8C;
 				  margin-right: 1%;
-				  /*border: 2px red solid;*/
-				  /*width: 10px;*/
 				}
+
 			.quien{
 				  color: #505050;
 				  font-size: 20px;
@@ -147,7 +126,6 @@
 				  width: 52%;
 				  vertical-align: top;
 				  margin-top: 1%;
-				  /*border: 2px red solid;*/
 				}
 
 				.somos{
@@ -155,9 +133,7 @@
 					margin-top: 8%;
 				}
 				.section {
-			      /*width: 100%; */
-			      /*border: 2px yellow solid;*/
-			      width: 100%;
+			       width: 100%;
 			}
 
 			.inner {
@@ -168,7 +144,6 @@
 				  padding:30px 0;
 				  font-size: 18px;
 				  font-family: 'Open Sans', sans-serif;
-				  /*border: 2px red solid;*/
 				}
 
 				.inner:after {
@@ -178,7 +153,6 @@
 				}
 
 				.inners1{
-				 /*border: 2px red solid;*/
 				 width: 80%;
 						}
 				.nombreb{
@@ -188,34 +162,19 @@
 				letter-spacing: -1px;
 				line-height: 100%;
 				color: #000;
-				/*border: 2px red solid;*/
 			}
 
-			.small{
-				/*margin-top: 0%;*/
-				/*border: 2px black solid;*/
-				/*text-align: center;*/
-				/*position: relative;*/
-				/*height: 50px;*/
-
-			}
+			
 
 			.conteimagen{
 				margin-top: 2%;
-				/*border: 2px green solid;*/
 				height: 100%;
-				/*overflow: hidden;*/
-				/*text-align: center;*/
-				/*position: relative;*/
-				/*top: 445px;*/
 				}
 
 				.texto, .circulo{
 				  display: block;
 				}
-				.small-t, .small-image{
-					 /*position: absolute;*/
-				}
+				
 				.small-t{
 					top: 265px;
 					margin: auto;
@@ -234,37 +193,28 @@
 				  font-size: 12px;
 				  line-height: 22px;
 				  color: #505050;
-				  /*border: 2px red solid;*/
 				  margin: 0 auto;
 				 
 				}
 				.circulo{
-				  /*vertical-align: top;*/
 				  margin-left: 0%;
-				  /*border: 2px red solid;*/
-				  /*width: 60%;*/
-				   /*height: 170px;
-				  width: 170px;*/
 				  margin: 0 auto;
 				  display: none;
-				  /*position: absolute;*/
 				}
+
 				#cabeza {
 				  border-radius: 0%;
-				  /*height: 170px;
-				  width: 170px;*/
 				  border: 0px #505050 solid;
 				  display: none;
 
 				 }
+
+
 				 .circulo2{
 				  vertical-align: top;
 				  margin-left: 0%;
-				  /*height: 170px;
-				  width: 170px;*/
 				  margin: 0 auto;
 				  display: none;
-				  /*border: 2px red solid;*/
 				}
 
 				.texto2, .texto3, .circulo2{
@@ -282,7 +232,6 @@
 				  line-height: 22px;
 				  color: #505050;
 				  margin: 0 auto;
-				  /*border: 2px black solid;*/
 				}
 
 				.texto3{
@@ -296,13 +245,11 @@
 				  line-height: 22px;
 				  color: #505050;
 				  margin: 0 auto;
-				  /*border: 2px black solid;*/
 				}
 
 				.val
 				{
 				  text-align: center;
-				  /*border: 2px red solid;*/
 				}
 
 				.mision{
@@ -328,15 +275,14 @@
 				  margin-top: 3%;
 				  margin-bottom: 2%;
 				}
+
 				.misions{
-					/*border: 2px black solid;*/
 					height: auto;
 				}
 
 				.mvov{
 				  text-align: center;
 				  margin-left: 40%;
-				  /*margin: 0 auto;*/
 				  margin-bottom: 3%;
 				  font-size: 19px;
 				  font-family: 'Montserrat', sans-serif;
@@ -347,7 +293,6 @@
 				  background: #F06B51;
 				  color:#000;
 				  height: auto;
-				  /*border: 2px red solid;*/
 				  width: 100%;
 				}
 
@@ -357,20 +302,17 @@
 				  padding: 0px;
 				  position: relative;
 				  text-align: center;
-				  /*border: 2px black solid;*/
 				}
 					
 				.mision2{
 
 				  display: block;
-				  /*vertical-align: top;*/
 				  width: 90%;
 				  height: auto;
 				  margin: 0 auto;
 				  margin-top: 20px;
 				  background: rgba(0,0,0,0.2);
 				  padding: 20px 25px;
-				  /*margin-bottom: 20px;*/
 				  border-top-left-radius:40px;
 				  border-bottom-right-radius:40px;
 				  color: #F6ECEC;
@@ -383,7 +325,6 @@
 				}
 				.iconos{
 				  text-align: center;
-				  /*border: 2px red solid;*/
 				}
 
 				.textotit{
@@ -393,7 +334,6 @@
 				  color: #321616;
 				  font-size: 19px;
 				  font-family: 'Montserrat', sans-serif;
-				   /*border: 2px red solid;*/
 				}
 
 				.lista{
@@ -408,27 +348,23 @@
 
 				.s3 {
 				  background:#fff;
-				  /*border: 2px red solid;*/
 				  margin-bottom: 20px;
-				  /*margin: 0px 0px;*/
 				  -webkit-box-sizing: border-box;
 				  -moz-box-sizing: border-box;
 				  box-sizing: border-box;
 				}
+
 				.imgportafolio
 				{
 				  width: 100%;
 				  text-align: center;
-				  /*border: 2px black solid;*/
 				}
+
 				figure
 				{
 				  width: 90%;
 				  display: block;
-				  /*vertical-align: top;*/
 				  height: auto;
-				  /*margin:  20px 5px;*/
-
 				  margin: 0 auto;
 				  margin-top: 20px;
 				  background: rgba(7, 132, 178, 0.9);
@@ -453,11 +389,11 @@
 				.contenedorcontacto{
 				  margin-top: 3%;
 				  color: white;
-				  /*border: 2px red solid;*/
 				  -webkit-box-sizing: border-box;
 				  -moz-box-sizing: border-box;
 				  box-sizing: border-box;
 				}
+
 				.quien2{
 				  color: white;
 				  font-size: 20px;
@@ -468,6 +404,7 @@
 				  vertical-align: top;
 				  margin-top: 3%;
 				}
+
 				#contactoinfo{
 				  width: 96%;
 				  font-size: 16px;
@@ -476,18 +413,17 @@
 				  margin-right: 0%;
 				  font-family: 'Oswald', sans-serif;
 				  color: white;
-				  /*border: 2px red solid;*/
-
 				}
+
 				.contacto, .direccion{
 				  display: block;
 				}
 				#contacto {
 				  width: 100%;
 				  color: white;
-				   /*border: 2px black solid;*/
-
 				}
+
+
 				.direccion{
 				  vertical-align: top;
 				  width: 27%;
@@ -501,7 +437,6 @@
 				.contacto{
 				  width: 100%;
 				  height: auto;
-				  /*border: 2px red solid;*/
 				}
 
 				.ema{
@@ -509,8 +444,9 @@
 				  font-family: helvetica;
 				  font-weight: bold;
 				  margin-left: 5%;
-				  /*border: 2px black solid;*/
 				}
+
+
 				.emai {
 
 				  height: 30px;
@@ -524,33 +460,27 @@
 				  box-shadow: inset 0 2px 2px 2px rgba(0,0,0,.075);
 				  transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
 				}
+
+
 				.der, .izq{
 					display: block;
 				}
 
 				.der {
 				  width: 100%;
-				  /*float: right;*/
 				  margin-right: 0%;
 				  padding: 3% 0px 3% 3%;
-				  /*border: 2px green solid;*/
-
 				}
 
 				.izq {
 				  width: 100%;
 				  padding: 3% 3% 3% 0px;
-				  /*float: left;*/
 				  margin-left: 0%;
-				  /*border: 2px green solid;*/
-
-
 				}
 
 				#cote
 				{
 				  overflow: hidden;
-				  /*border: 2px yellow solid;*/
 				}
 
 				.enviar{
@@ -573,19 +503,18 @@
 
 				#enviar2{
 				  margin-top: 3%;
-				    /*width: 20%;*/
 				}
+
 				.direccion{
-				  /*vertical-align: top;*/
 				  margin-top: 12%;
 				  width: 100%;
 				  padding: 10px;
 				  -webkit-box-sizing: border-box;
 				  -moz-box-sizing: border-box;
 				  box-sizing: border-box;
-				  /*border: 2px red solid;*/
-
 				}
+
+
 				.direec{
 				  margin-bottom: 2%;
 				  font-family: 'Slabo 27px', serif;
@@ -593,16 +522,21 @@
 				  color:#0180ab;
 				  text-align: center;
 				}
+
+
 				.direc{
 				  margin-top: 1%;
 				  font-family: 'Open Sans', sans-serif;
 				  text-align: center;
 				}
+
+
 				.tel{
 				    margin-top: 4%;
 				  font-family: 'Open Sans', sans-serif;
 				  text-align: center;
 				}
+
 				.email{
 				  margin-top: 4%;
 				  font-family: 'Open Sans', sans-serif;
@@ -615,13 +549,10 @@
 					{
 					  padding: 0px 0px;
 					  background: rgba(0,0,0, 0.1);
-					  /*text-align: center;*/
 					  color: #505050;
-					  /*border: 2px red solid;*/
 					}
 					.justify
 					{
-					  /*border: 2px solid red;*/
 					   display: block;
 					  margin-top: 2%;
 					}
@@ -631,28 +562,21 @@
 					  font-family: 'Open Sans', sans-serif;
 					  font-weight: bold;
 					  width: 100%;
-
-					  /*border: 2px red solid;*/
 					}
 
 					.conten-pie2
 					{
 					  font-family: 'Open Sans', sans-serif;
 					  font-weight: bold;
-					  /*border: 2px red solid;*/
 					  width: 100%;
-					  /*margin-left: 10%;*/
 					}
 
-					.direccion{
-					  /*border: 2px red solid;*/
-					}
+					
 
 					.secciones
-			{
-				/*border: 2px solid green;*/
-				 overflow-x: hidden;
-			}
+					{
+				 		overflow-x: hidden;
+					}
 
 
 
@@ -669,14 +593,11 @@
 			/***********************Diseño Responsivo Full SCREEN**********************/
 			
 			.lb-overlay  article{
-				/*border: 2px solid red;*/
 				padding: 0px;
 				margin: 0px;
 				width: 93%;
 				position: absolute;
 				left: 2%;
-				/*text-align: left;*/
-
 			}
 			
 			.lb-overlay article > p{
@@ -701,7 +622,6 @@
 			
 			.lb-overlay > div
 			{
-				/*border: 2px solid red;*/
 				position: absolute;
 				top: 0;
 				left: 0;
@@ -710,7 +630,6 @@
 			
 			 .lb-overlay a.lb-close
 			{
-				/*border: 2px solid green;*/
 				right: 0;
 				top: 15px;
 			}
@@ -727,9 +646,7 @@
 				} 
 
 			.lb-next{
-				/*border: 2px solid green;*/
 				padding: 0;
-				/*margin: 0;*/
 			}
 
 			/*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
@@ -748,7 +665,6 @@
 				  font-family: 'Merriweather', serif;
 				  font-size: 50px;
 				  width: 100%;
-				   /*border: 2px red solid;*/
 				}
 
 				.subtitle
@@ -758,8 +674,8 @@
 				  text-align: left;
 				  margin-bottom: 80px;
 				  width: 100%;
-				  /*border: 2px red solid;*/
 				}
+
 				.conten-inicio{
 				  margin: 100px 0 0 65px;
 				  height: auto;
@@ -772,23 +688,23 @@
 
 	.secciones
 			{ 
-			    /*position: absolute;*/
 			    top: 100%;
-			    /*border:2px green solid;*/
 			    width: 100%;
 			     overflow-x: hidden;
 			}
+
+
 	.s1 {
 		  background:#FFF;
 		  color:#000;
-		  /*border: 2px red solid;*/
 		  width: 100%;
 		}
+
 	.conteimagen{
 		  margin-top: 2%;
-		  /*border: 2px red solid;*/
 		  width: 100%;
 		}
+
 		.texto{
 		  margin-top: 2%;
 		  margin-left: 4%;
@@ -799,8 +715,8 @@
 		  font-size: 16px;
 		  line-height: 22px;
 		  color: #505050;
-		  /*border: 2px red solid;*/
 		}
+
 		.circulo{
 		  vertical-align: top;
 		  margin-left: 2%;
@@ -821,7 +737,6 @@
 		  font-size: 16px;
 		  line-height: 22px;
 		  color: #505050;
-		  /*border: 2px red solid;*/
 		}
 
 		.texto3{
@@ -834,22 +749,20 @@
 		  font-size: 16px;
 		  line-height: 22px;
 		  color: #505050;
-		  /*border: 2px red solid;*/
 		}
 
 		.val
 		{
 		  text-align: center;
-		  /*border: 2px red solid;*/
 		}
+
+
 		.mision{
-		  /*border: 2px red solid;*/
 		  display: inline-block;
 		  margin-top: 3%;
 		  margin-left: 2%;
 		  margin-bottom: 2%;
 		  width: 40%;
-		  /*height: 350px;*/
 		  height: auto;
 		  padding: 1% 3%;
 		  vertical-align:  top;
@@ -878,7 +791,6 @@
 				  background: #F06B51;
 				  color:#000;
 				  height: auto;
-				  /*border: 2px red solid;*/
 				  width: 100%;
 				}
 
@@ -888,23 +800,17 @@
 				  padding: 0px;
 				  position: relative;
 				  text-align: center;
-				  /*border: 2px black solid;*/
 				}
 					
 				.mision2{
 
 				  display: inline-block;
-				  /*border: 2px red solid;*/
-				  /*vertical-align: top;*/
 				  width: 45%;
-				  /*height: 335px;*/
 				  height: auto;
-				  /*margin: 0 auto;*/
 				  margin-top: 20px;
 				  margin-left: 1%;
 				  background: rgba(0,0,0,0.2);
 				  padding: 20px 25px;
-				  /*margin-bottom: 20px;*/
 				  border-top-left-radius:40px;
 				  border-bottom-right-radius:40px;
 				  color: #F6ECEC;
@@ -917,7 +823,6 @@
 				}
 				.iconos{
 				  text-align: center;
-				  /*border: 2px red solid;*/
 				}
 
 				.textotit{
@@ -927,7 +832,6 @@
 				  color: #321616;
 				  font-size: 18px;
 				  font-family: 'Montserrat', sans-serif;
-				   /*border: 2px red solid;*/
 				}
 
 				.lista{
@@ -942,18 +846,19 @@
 
 				.s3 {
 				  background:#fff;
-				  /*border: 2px red solid;*/
 				  margin-bottom: 20px;
 				  -webkit-box-sizing: border-box;
 				  -moz-box-sizing: border-box;
 				  box-sizing: border-box;
 				}
+
 				.imgportafolio
 				{
 				  width: 100%;
 				  text-align: center;
-				  /*border: 2px black solid;*/
 				}
+
+
 				figure
 				{
 				  width: 45%;
@@ -977,7 +882,6 @@
 				  -webkit-box-sizing: border-box;
 				  -moz-box-sizing: border-box;
 				  box-sizing: border-box;
-				  /*border: 2px red solid;*/
 				}
 
 				#contactoinfo{
@@ -987,15 +891,11 @@
 				  margin-right: 0%;
 				  font-family: 'Oswald', sans-serif;
 				   color: white;
-				   /*border: 2px red solid;*/
-
 				}
 
 				#contacto {
 				  width: 100%;
 				   color: white;
-				   /*border: 2px green solid;*/
-
 				}
 
 				.direccion{
@@ -1005,13 +905,10 @@
 				  -webkit-box-sizing: border-box;
 				  -moz-box-sizing: border-box;
 				  box-sizing: border-box;
-				  /*border: 2px yellow solid;*/
-
 				}
 
 				.contacto{
 				  width: 60%;
-				  /*border: 2px yellow solid;*/
 				}
 
 				.contacto, .direccion{
@@ -1023,10 +920,9 @@
 				  font-family: helvetica;
 				  font-weight: bold;
 				  margin-left: 5%;
-				  /*border: 2px black solid;*/
 				}
-				.emai {
 
+				.emai {
 				  height: 30px;
 				  border-radius: 5px;
 				  margin-top: 1%;
@@ -1038,60 +934,56 @@
 				  box-shadow: inset 0 2px 2px 2px rgba(0,0,0,.075);
 				  transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
 				}
+
+
 				.der, .izq{
 					display: block;
 				}
 
 				.der {
 				  width: 100%;
-				  /*float: right;*/
 				  margin-right: 0%;
 				  padding: 3% 0px 3% 3%;
-				  /*border: 2px green solid;*/
-
 				}
 
 				.izq {
 				  width: 100%;
 				  padding: 3% 3% 3% 0px;
-				  /*float: left;*/
 				  margin-left: 0%;
-				  /*border: 2px green solid;*/
-
-
 				}
 
 				#cote
 				{
 				  overflow: hidden;
-				  /*border: 2px yellow solid;*/
 				}
+
+
 				.direec{
 				  margin-bottom: 2%;
 				  font-family: 'Slabo 27px', serif;
 				  font-size: 30px;
 				  color:#0180ab;
-				  /*border:2px red solid;*/
 				  text-align: center;
 				}
+
 				.direc{
 				  margin-top: 1%;
 				  font-family: 'Open Sans', sans-serif;
-				  /*border:2px red solid;*/
-				  /*text-align: center;*/
 				}
+
+
 				.tel{
 				    margin-top: 4%;
 				  font-family: 'Open Sans', sans-serif;
-				  /*border:2px red solid;*/
-				  /*text-align: center;*/
 				}
+
+
 				.email{
 				  margin-top: 4%;
 				  font-family: 'Open Sans', sans-serif;
-				  /*border:2px red solid;*/
-				  /*text-align: center;*/
 				}
+
+
 				.enviar{
 				  font-size:15px;
 				    font-weight:bold;
@@ -1114,20 +1006,22 @@
 				  margin-top: 3%;
 				    width: 30%;
 				}
+
+
 				/*-----footer-----*/
+
+
 				footer
 					{
 					  padding: 0px 0px;
 					  background: rgba(0,0,0, 0.1);
-					  /*text-align: center;*/
 					  color: #505050;
-					  /*border: 2px red solid;*/
 					  width: 100%;
 					}
+
 					.justify
 					{
-					  /*border: 2px solid red;*/
-					   display: inline-block;
+					  display: inline-block;
 					  margin-top: 2%;
 					}
 
@@ -1136,38 +1030,30 @@
 					  font-family: 'Open Sans', sans-serif;
 					  font-weight: bold;
 					  width: 100%;
-
-					  /*border: 2px red solid;*/
 					}
 
 					.conten-pie2
 					{
 					  font-family: 'Open Sans', sans-serif;
 					  font-weight: bold;
-					  /*border: 2px red solid;*/
 					  width: 100%;
-					  /*margin-left: 10%;*/
 					}
 
 					/*COnfiguracion del menu responsivo*/
 			
 			.subMenu
 			{
-				/*border: 2px solid yellow;*/
 				width: 100%;
-				/*display: none;*/
 			}
 
 			.subMenu .logo
 			{
-				/*border: 2px solid  red;*/
 				float: left;
 				width: 39%;
 			}
 
 			.subMenu .inner
 			{
-				/*border: 2px solid black;*/
 				margin: 0;
 				width: 100%;
 			}
@@ -1175,31 +1061,24 @@
 
 			.subMenu .contenMenu
 			{
-				/*border: 2px solid blue;*/
 				width: 85%;
 				overflow: hidden;
 				padding: 0;
-				/*margin-top: 1%;*/
 				position: fixed;
 				background: #D4D4D4;
 				left:-100%;
-				/*display: none;*/
 			}
 
 
 
 			.subMenu .subNavBtn
 			{
-				/*display: block;*/
 				width: 100%;
-				/*border: 2px solid red;*/
-				/*padding: 0;*/
 				line-height: 50px;
 				font-size: 20px;
 				text-align: left;
 				padding: 0px 0px 0px 60px;
 				color: #000;
-				/*border-bottom: */
 				border-bottom:1px solid rgba(255,255,255, .9);
 			}
 
@@ -1209,7 +1088,6 @@
 				display: block;
 				float: right;
 				color: #000;
-				/*width: 100%;*/
 				padding: 5px 10px;
 				vertical-align: top;
 				margin-top: 3%;
@@ -1221,24 +1099,19 @@
 			.fa-bars
 			{
 				  color: #fff;
-
 			}
 
 			
 
 			.sTop
 			{
-				/*border: 2px solid orange;*/
 				width: 100%;
 			}
 
 			.sTop .conten-inicio
 			{
-				/*border: 2px solid red;*/
 				width: 80%;
 				margin-left: 0;
-
-				/*margin: 0;*/
 			}
 
 
@@ -1259,14 +1132,11 @@
 			
 
 			.lb-overlay  article{
-				/*border: 2px solid red;*/
 				padding: 0px;
 				margin: 0px;
 				width: 93%;
 				position: absolute;
 				left: 2%;
-				/*text-align: left;*/
-
 			}
 			
 			.lb-overlay article > p{
@@ -1300,7 +1170,6 @@
 			
 			 .lb-overlay a.lb-close
 			{
-				/*border: 2px solid green;*/
 				right: 0;
 				top: 15px;
 			}
@@ -1322,21 +1191,17 @@
 			
 			.subMenu
 			{
-				/*border: 2px solid yellow;*/
 				width: 100%;
-				/*display: none;*/
 			}
 
 			.subMenu .logo
 			{
-				/*border: 2px solid  red;*/
 				float: left;
 				width: 30%;
 			}
 
 			.subMenu .inner
 			{
-				/*border: 2px solid black;*/
 				margin: 0;
 				width: 100%;
 			}
@@ -1344,31 +1209,24 @@
 
 			.subMenu .contenMenu
 			{
-				/*border: 2px solid blue;*/
 				width: 85%;
 				overflow: hidden;
 				padding: 0;
-				/*margin-top: 1%;*/
 				position: fixed;
 				background: #D4D4D4;
 				left:-100%;
-				/*display: none;*/
 			}
 
 
 
 			.subMenu .subNavBtn
 			{
-				/*display: block;*/
 				width: 100%;
-				/*border: 2px solid red;*/
-				/*padding: 0;*/
 				line-height: 50px;
 				font-size: 20px;
 				text-align: left;
 				padding: 0px 0px 0px 60px;
 				color: #000;
-				/*border-bottom: */
 				border-bottom:1px solid rgba(255,255,255, .9);
 			}
 
@@ -1378,7 +1236,6 @@
 				display: block;
 				float: right;
 				color: #000;
-				/*width: 100%;*/
 				padding: 5px 10px;
 				vertical-align: top;
 				margin-top: 1%;
@@ -1393,21 +1250,15 @@
 
 			}
 
-			
-
 			.sTop
 			{
-				/*border: 2px solid orange;*/
 				width: 100%;
 			}
 
 			.sTop .conten-inicio
 			{
-				/*border: 2px solid red;*/
 				width: 80%;
 				margin-left: 0;
-
-				/*margin: 0;*/
 			}
 
 
@@ -1419,7 +1270,6 @@
 				  font-family: 'Merriweather', serif;
 				  font-size: 80px;
 				  width: 100%;
-				   /*border: 2px red solid;*/
 				}
 
 				.subtitle
@@ -1429,8 +1279,8 @@
 				  text-align: left;
 				  margin-bottom: 150px;
 				  width: 100%;
-				  /*border: 2px red solid;*/
 				}
+
 				.conten-inicio{
 				  margin: 150px 0 0 75px;
 				  height: auto;
@@ -1441,24 +1291,25 @@
 				/*------------------------------------*/
 
 				.secciones
-			{ 
-			    /*position: absolute;*/
-			    top: 100%;
-			    /*border:2px green solid;*/
-			    width: 100%;
-			     overflow-x: hidden;
-			}
+				{ 
+				    top: 100%;
+				    width: 100%;
+				     overflow-x: hidden;
+				 }
+
 	.s1 {
 		  background:#FFF;
 		  color:#000;
-		  /*border: 2px red solid;*/
 		  width: 100%;
 		}
+
+
 	.conteimagen{
 		  margin-top: 2%;
-		  /*border: 2px red solid;*/
 		  width: 100%;
 		}
+
+
 		.texto{
 		  margin-top: 2%;
 		  margin-left: 8%;
@@ -1469,8 +1320,9 @@
 		  font-size: 16px;
 		  line-height: 22px;
 		  color: #505050;
-		  /*border: 2px red solid;*/
 		}
+
+
 		.circulo{
 		  vertical-align: top;
 		  margin-left: 2%;
@@ -1491,7 +1343,6 @@
 		  font-size: 16px;
 		  line-height: 22px;
 		  color: #505050;
-		  /*border: 2px red solid;*/
 		}
 
 		.texto3{
@@ -1504,22 +1355,20 @@
 		  font-size: 16px;
 		  line-height: 22px;
 		  color: #505050;
-		  /*border: 2px red solid;*/
 		}
 
 		.val
 		{
 		  text-align: center;
-		  /*border: 2px red solid;*/
 		}
+
+
 		.mision{
-		  /*border: 2px red solid;*/
 		  display: inline-block;
 		  margin-top: 3%;
 		  margin-left: 2%;
 		  margin-bottom: 2%;
 		  width: 40%;
-		  /*height: 350px;*/
 		  height: auto;
 		  padding: 1% 3%;
 		  vertical-align:  top;
@@ -1547,7 +1396,6 @@
 				  background: #F06B51;
 				  color:#000;
 				  height: auto;
-				  /*border: 2px red solid;*/
 				  width: 100%;
 				}
 
@@ -1557,23 +1405,17 @@
 				  padding: 0px;
 				  position: relative;
 				  text-align: center;
-				  /*border: 2px black solid;*/
 				}
 					
 				.mision2{
 
 				  display: inline-block;
-				  /*border: 2px red solid;*/
-				  /*vertical-align: top;*/
 				  width: 45%;
-				  /*height: 335px;*/
 				  height: auto;
-				  /*margin: 0 auto;*/
 				  margin-top: 20px;
 				  margin-left: 1%;
 				  background: rgba(0,0,0,0.2);
 				  padding: 20px 25px;
-				  /*margin-bottom: 20px;*/
 				  border-top-left-radius:40px;
 				  border-bottom-right-radius:40px;
 				  color: #F6ECEC;
@@ -1584,9 +1426,9 @@
 				  -moz-box-sizing: border-box;
 				  box-sizing: border-box;
 				}
+
 				.iconos{
 				  text-align: center;
-				  /*border: 2px red solid;*/
 				}
 
 				.textotit{
@@ -1596,7 +1438,6 @@
 				  color: #321616;
 				  font-size: 19px;
 				  font-family: 'Montserrat', sans-serif;
-				   /*border: 2px red solid;*/
 				}
 
 				.lista{
@@ -1611,18 +1452,18 @@
 
 				.s3 {
 				  background:#fff;
-				  /*border: 2px red solid;*/
 				  margin-bottom: 20px;
 				  -webkit-box-sizing: border-box;
 				  -moz-box-sizing: border-box;
 				  box-sizing: border-box;
 				}
+
 				.imgportafolio
 				{
 				  width: 100%;
 				  text-align: center;
-				  /*border: 2px black solid;*/
 				}
+
 				figure
 				{
 				  width: 45%;
@@ -1645,7 +1486,6 @@
 				  -webkit-box-sizing: border-box;
 				  -moz-box-sizing: border-box;
 				  box-sizing: border-box;
-				  /*border: 2px red solid;*/
 				}
 
 				#contactoinfo{
@@ -1661,8 +1501,6 @@
 				#contacto {
 				  width: 100%;
 				   color: white;
-				   /*border: 2px green solid;*/
-
 				}
 
 				.direccion{
@@ -1672,13 +1510,10 @@
 				  -webkit-box-sizing: border-box;
 				  -moz-box-sizing: border-box;
 				  box-sizing: border-box;
-				  /*border: 2px yellow solid;*/
-
 				}
 
 				.contacto{
 				  width: 60%;
-				  /*border: 2px yellow solid;*/
 				}
 
 				.contacto, .direccion{
@@ -1690,8 +1525,8 @@
 				  font-family: helvetica;
 				  font-weight: bold;
 				  margin-left: 5%;
-				  /*border: 2px black solid;*/
 				}
+
 				.emai {
 
 				  height: 30px;
@@ -1711,54 +1546,48 @@
 
 				.der {
 				  width: 100%;
-				  /*float: right;*/
 				  margin-right: 0%;
 				  padding: 3% 0px 3% 3%;
-				  /*border: 2px green solid;*/
-
 				}
 
 				.izq {
 				  width: 100%;
 				  padding: 3% 3% 3% 0px;
-				  /*float: left;*/
 				  margin-left: 0%;
-				  /*border: 2px green solid;*/
-
-
 				}
 
 				#cote
 				{
 				  overflow: hidden;
-				  /*border: 2px yellow solid;*/
 				}
+
+
 				.direec{
 				  margin-bottom: 2%;
 				  font-family: 'Slabo 27px', serif;
 				  font-size: 30px;
 				  color:#0180ab;
-				  /*border:2px red solid;*/
 				  text-align: center;
 				}
+
+
 				.direc{
 				  margin-top: 1%;
 				  font-family: 'Open Sans', sans-serif;
-				  /*border:2px red solid;*/
-				  /*text-align: center;*/
 				}
+
+
 				.tel{
 				    margin-top: 4%;
 				  font-family: 'Open Sans', sans-serif;
-				  /*border:2px red solid;*/
-				  /*text-align: center;*/
 				}
+
+
 				.email{
 				  margin-top: 4%;
 				  font-family: 'Open Sans', sans-serif;
-				  /*border:2px red solid;*/
-				  /*text-align: center;*/
 				}
+
 				.enviar{
 				  font-size:15px;
 				    font-weight:bold;
@@ -1781,19 +1610,20 @@
 				  margin-top: 3%;
 				    width: 30%;
 				}
+
 				/*-----footer-----*/
+
 				footer
 					{
 					  padding: 0px 0px;
 					  background: rgba(0,0,0, 0.1);
-					  /*text-align: center;*/
 					  color: #505050;
-					  /*border: 2px red solid;*/
 					  width: 100%;
 					}
+
+
 					.justify
 					{
-					  /*border: 2px solid red;*/
 					   display: inline-block;
 					  margin-top: 2%;
 					}
@@ -1803,24 +1633,19 @@
 					  font-family: 'Open Sans', sans-serif;
 					  font-weight: bold;
 					  width: 100%;
-
-					  /*border: 2px red solid;*/
 					}
 
 					.conten-pie2
 					{
 					  font-family: 'Open Sans', sans-serif;
 					  font-weight: bold;
-					  /*border: 2px red solid;*/
 					  width: 100%;
-					  /*margin-left: 10%;*/
 					}
 
 		/*********************AREA DE IMAGENES****************************************/
 
 			.lb-album > li 
 			{
-				/*border: 2px solid green;*/
 				width: 46%;
 				margin: 17px 10px;
 			}
@@ -1833,7 +1658,6 @@
 			
 
 			.lb-overlay  article{
-				/*border: 2px solid green;*/
 				padding: 0px;
 				margin: 0px;
 				width: 93%;
@@ -1866,9 +1690,7 @@
 				left: 4%;
 				margin: 0px;
 				height: 215px;
-				position: absolute;
-				/*border: 2px solid red;*/
-			
+				position: absolute;			
 			}
 
 			.lb-overlay figure > img
@@ -1887,7 +1709,6 @@
 			
 			 .lb-overlay a.lb-close
 			{
-				/*border: 2px solid green;*/
 				right: 0;
 				top: 15px;
 			}
@@ -1911,21 +1732,17 @@
 			
 			.subMenu
 			{
-				/*border: 2px solid yellow;*/
 				width: 100%;
-				/*display: none;*/
 			}
 
 			.subMenu .logo
 			{
-				/*border: 2px solid  red;*/
 				float: left;
 				width: 20%;
 			}
 
 			.subMenu .inner
 			{
-				/*border: 2px solid black;*/
 				margin: 0;
 				width: 100%;
 			}
@@ -1933,31 +1750,24 @@
 
 			.subMenu .contenMenu
 			{
-				/*border: 2px solid blue;*/
 				width: 85%;
 				overflow: hidden;
 				padding: 0;
-				/*margin-top: 1%;*/
 				position: fixed;
 				background: #D4D4D4;
 				left:-100%;
-				/*display: none;*/
 			}
 
 
 
 			.subMenu .subNavBtn
 			{
-				/*display: block;*/
 				width: 100%;
-				/*border: 2px solid red;*/
-				/*padding: 0;*/
 				line-height: 50px;
 				font-size: 20px;
 				text-align: left;
 				padding: 0px 0px 0px 60px;
 				color: #000;
-				/*border-bottom: */
 				border-bottom:1px solid rgba(255,255,255, .9);
 			}
 
@@ -1967,7 +1777,6 @@
 				display: block;
 				float: right;
 				color: #000;
-				/*width: 100%;*/
 				padding: 5px 10px;
 				vertical-align: top;
 				margin-top: 1%;
@@ -1983,19 +1792,15 @@
 			}
 
 			
-
 			.sTop
 			{
-				/*border: 2px solid orange;*/
 				width: 100%;
 			}
 
 			.sTop .conten-inicio
 			{
-				/*border: 2px solid red;*/
 				width: 80%;
 				margin-left: 0;
-
 				margin-top:162px; ;
 			}
 
@@ -2008,7 +1813,6 @@
 				  font-family: 'Merriweather', serif;
 				  font-size: 80px;
 				  width: 100%;
-				   /*border: 2px red solid;*/
 				}
 
 				.subtitle
@@ -2018,7 +1822,6 @@
 				  text-align: left;
 				  margin-bottom: 150px;
 				  width: 100%;
-				  /*border: 2px red solid;*/
 				}
 				
 
@@ -2028,24 +1831,25 @@
 
 				.secciones
 			{ 
-			    /*position: absolute;*/
 			    top: 100%;
-			    /*border:2px green solid;*/
 			    width: 100%;
 			    overflow-x: hidden;
 			    overflow-y: hidden;
 			}
+
+
 	.s1 {
 		  background:#FFF;
 		  color:#000;
-		  /*border: 2px red solid;*/
 		  width: 100%;
 		}
+
+
 	.conteimagen{
 		  margin-top: 2%;
-		  /*border: 2px red solid;*/
 		  width: 100%;
 		}
+
 		.texto{
 		  margin-top: 2%;
 		  margin-left: 10%;
@@ -2056,18 +1860,23 @@
 		  font-size: 16px;
 		  line-height: 22px;
 		  color: #505050;
-		  /*border: 2px red solid;*/
 		}
+
+
 		.circulo{
 		  vertical-align: top;
 		  margin-left: 2%;
 		  margin-top: 0%;
 		}
+
+
 		.circulo2{
 		  vertical-align: top;
 		  margin-left: 15%;
 		  margin-top: 0%;
 		}
+
+
 		.texto2{
 		  margin-top: 4%;
 		  margin-left: 2%;
@@ -2078,7 +1887,6 @@
 		  font-size: 16px;
 		  line-height: 22px;
 		  color: #505050;
-		  /*border: 2px red solid;*/
 		}
 
 		.texto3{
@@ -2091,22 +1899,19 @@
 		  font-size: 16px;
 		  line-height: 22px;
 		  color: #505050;
-		  /*border: 2px red solid;*/
 		}
 
 		.val
 		{
 		  text-align: center;
-		  /*border: 2px red solid;*/
 		}
+
 		.mision{
-		  /*border: 2px red solid;*/
 		  display: inline-block;
 		  margin-top: 3%;
 		  margin-left: 2%;
 		  margin-bottom: 2%;
 		  width: 24%;
-		  /*height: 350px;*/
 		  height: auto;
 		  padding: 1% 3%;
 		  vertical-align:  top;
@@ -2134,7 +1939,6 @@
 				  background: #F06B51;
 				  color:#000;
 				  height: auto;
-				  /*border: 2px red solid;*/
 				  width: 100%;
 				}
 
@@ -2144,23 +1948,17 @@
 				  padding: 0px;
 				  position: relative;
 				  text-align: center;
-				  /*border: 2px black solid;*/
 				}
 					
 				.mision2{
 
 				  display: inline-block;
-				  /*border: 2px red solid;*/
-				  /*vertical-align: top;*/
 				  width: 31%;
-				  /*height: 335px;*/
 				  height: auto;
-				  /*margin: 0 auto;*/
 				  margin-top: 20px;
 				  margin-left: 0%;
 				  background: rgba(0,0,0,0.2);
 				  padding: 20px 25px;
-				  /*margin-bottom: 20px;*/
 				  border-top-left-radius:40px;
 				  border-bottom-right-radius:40px;
 				  color: #F6ECEC;
@@ -2171,9 +1969,10 @@
 				  -moz-box-sizing: border-box;
 				  box-sizing: border-box;
 				}
+
+
 				.iconos{
 				  text-align: center;
-				  /*border: 2px red solid;*/
 				}
 
 				.textotit{
@@ -2183,7 +1982,6 @@
 				  color: #321616;
 				  font-size: 19px;
 				  font-family: 'Montserrat', sans-serif;
-				   /*border: 2px red solid;*/
 				}
 
 				.lista{
@@ -2198,18 +1996,20 @@
 
 				.s3 {
 				  background:#fff;
-				  /*border: 2px red solid;*/
 				  margin-bottom: 20px;
 				  -webkit-box-sizing: border-box;
 				  -moz-box-sizing: border-box;
 				  box-sizing: border-box;
 				}
+
+
 				.imgportafolio
 				{
 				  width: 100%;
 				  text-align: center;
-				  /*border: 2px black solid;*/
 				}
+
+
 				figure
 				{
 				  width: 45%;
@@ -2232,7 +2032,6 @@
 				  -webkit-box-sizing: border-box;
 				  -moz-box-sizing: border-box;
 				  box-sizing: border-box;
-				  /*border: 2px red solid;*/
 				}
 
 				#contactoinfo{
@@ -2248,8 +2047,6 @@
 				#contacto {
 				  width: 100%;
 				   color: white;
-				   /*border: 2px green solid;*/
-
 				}
 
 				.direccion{
@@ -2259,13 +2056,10 @@
 				  -webkit-box-sizing: border-box;
 				  -moz-box-sizing: border-box;
 				  box-sizing: border-box;
-				  /*border: 2px yellow solid;*/
-
 				}
 
 				.contacto{
 				  width: 60%;
-				  /*border: 2px yellow solid;*/
 				}
 
 				.contacto, .direccion{
@@ -2277,8 +2071,8 @@
 				  font-family: helvetica;
 				  font-weight: bold;
 				  margin-left: 5%;
-				  /*border: 2px black solid;*/
 				}
+
 				.emai {
 
 				  height: 30px;
@@ -2292,60 +2086,55 @@
 				  box-shadow: inset 0 2px 2px 2px rgba(0,0,0,.075);
 				  transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
 				}
+
+
 				.der, .izq{
 					display: block;
 				}
 
 				.der {
 				  width: 100%;
-				  /*float: right;*/
 				  margin-right: 0%;
 				  padding: 3% 0px 3% 3%;
-				  /*border: 2px green solid;*/
-
 				}
 
 				.izq {
 				  width: 100%;
 				  padding: 3% 3% 3% 0px;
-				  /*float: left;*/
 				  margin-left: 0%;
-				  /*border: 2px green solid;*/
-
-
 				}
 
 				#cote
 				{
 				  overflow: hidden;
-				  /*border: 2px yellow solid;*/
 				}
+
+
 				.direec{
 				  margin-bottom: 2%;
 				  font-family: 'Slabo 27px', serif;
 				  font-size: 30px;
 				  color:#0180ab;
-				  /*border:2px red solid;*/
 				  text-align: center;
 				}
+
 				.direc{
 				  margin-top: 1%;
 				  font-family: 'Open Sans', sans-serif;
-				  /*border:2px red solid;*/
-				  /*text-align: center;*/
 				}
+
+
 				.tel{
 				    margin-top: 4%;
 				  font-family: 'Open Sans', sans-serif;
-				  /*border:2px red solid;*/
-				  /*text-align: center;*/
 				}
+
+
 				.email{
 				  margin-top: 4%;
 				  font-family: 'Open Sans', sans-serif;
-				  /*border:2px red solid;*/
-				  /*text-align: center;*/
 				}
+
 				.enviar{
 				  font-size:15px;
 				    font-weight:bold;
@@ -2360,6 +2149,8 @@
 				    margin-right: 20%;
 
 				}
+
+
 				.enviar:hover {
 				  background: #4b4a4d;
 				}
@@ -2368,20 +2159,21 @@
 				  margin-top: 3%;
 				    width: 30%;
 				}
+
+
 				/*-----footer-----*/
 				footer
 					{
 					  padding: 0px 0px;
 					  background: rgba(0,0,0, 0.1);
-					  /*text-align: center;*/
 					  color: #505050;
-					  /*border: 2px red solid;*/
 					  width: 100%;
 					}
+
+
 					.justify
 					{
-					  /*border: 2px solid red;*/
-					   display: inline-block;
+					  display: inline-block;
 					  margin-top: 2%;
 					}
 
@@ -2390,24 +2182,19 @@
 					  font-family: 'Open Sans', sans-serif;
 					  font-weight: bold;
 					  width: 100%;
-
-					  /*border: 2px red solid;*/
 					}
 
 					.conten-pie2
 					{
 					  font-family: 'Open Sans', sans-serif;
 					  font-weight: bold;
-					  /*border: 2px red solid;*/
 					  width: 100%;
-					  /*margin-left: 10%;*/
 					}
 	
 	/*********************AREA DE IMAGENES****************************************/
 
 			.lb-album > li 
 			{
-				/*border: 2px solid red;*/
 				width: 32%;
 				margin: 15px 2px;
 			}
@@ -2419,13 +2206,11 @@
 			
 
 			.lb-overlay  article{
-				/*border: 2px solid red;*/
 				padding: 0px;
 				margin: 0px;
 				width: 93%;
 				position: absolute;
 				left: 2%;
-				/*bottom: 0;*/
 				top:65%;
 
 			}
@@ -2452,9 +2237,7 @@
 				left: 4%;
 				margin: 0px;
 				height: 220px;
-				position: absolute;
-				/*border: 2px solid red;*/
-			
+				position: absolute;			
 			}
 
 			.lb-overlay figure > img
@@ -2468,7 +2251,6 @@
 				position: absolute;
 				top: 0;
 				left: 20px;
-				/*border: 2px solid red;*/
 				width: 30%;
 			}
 
@@ -2480,7 +2262,6 @@
 			
 			 .lb-overlay a.lb-close
 			{
-				/*border: 2px solid green;*/
 				right: 0;
 				top: 15px;
 			}
@@ -2500,23 +2281,18 @@
 
 			.sTop
 			{
-				/*border: 2px solid orange;*/
 				width: 100%;
 				height: 581px;
 			}
 
 			.sTop .conten-inicio
 			{
-				/*border: 2px solid red;*/
 				width: 80%;
 				margin-left: 10px;
 				margin-top: 85px;
-
-
-				/*margin: 0;*/
 			}
+
 			.title{
-				/*border: 2px red solid;*/
 				border-top: 0px;
 			}
 			.subtitle
@@ -2534,7 +2310,6 @@
 	
 			.lb-album > li 
 			{
-				/*border: 2px solid red;*/
 				width: 23%;
 				margin: 15px 10px;
 			}
@@ -2544,12 +2319,10 @@
 
 			.lb-overlay article, .lb-overlay figure
 			{
-				/*border: 2px solid red;*/
 				display: inline-block;
 			}
 
 			.lb-overlay article{
-				/*border: 2px solid green;*/
 				width: 45%;
 				padding-top: 80px;
 
@@ -2557,15 +2330,11 @@
 			
 			.lb-overlay > figure 
 			{
-				/*display: block;*/
 				width: 51%;
 				left: 0px;
 				left: 4%;
 				margin: 0px;
-				height: 450px;
-				/*position: absolute;*/
-				/*border: 2px solid red;*/
-			
+				height: 450px;			
 			}
 
 			.lb-overlay figure > img
@@ -2584,27 +2353,23 @@
 
 	.sTop
 			{
-				/*border: 2px solid orange;*/
 				width: 100%;
 				height: 854px;
 			}
 
 			.sTop .conten-inicio
 			{
-				/*border: 2px solid red;*/
 				width: 80%;
 				margin-left: 10px;
 				margin-top: 100px;
-
-
-				/*margin: 0;*/
 			}
 
 			.title{
 				margin-top: 0px;
 				font-size: 110px;
-				/*border: 2px red solid;*/
 			}
+
+
 			.subtitle
 			{
 			  font-size: 40px;
@@ -2616,13 +2381,11 @@
 
 	/*quienes somos*/
 		.mision{
-		  /*border: 2px red solid;*/
 		  display: inline-block;
 		  margin-top: 3%;
 		  margin-left: 5%;
 		  margin-bottom: 2%;
 		  width: 24%;
-		  /*height: 350px;*/
 		  height: auto;
 		  padding: 1% 3%;
 		  vertical-align:  top;
@@ -2642,17 +2405,12 @@
 	.mision2{
 
 				  display: inline-block;
-				  /*border: 2px red solid;*/
-				  /*vertical-align: top;*/
 				  width: 22%;
-				  /*height: 335px;*/
 				  height: auto;
-				  /*margin: 0 auto;*/
 				  margin-top: 20px;
 				  margin-left: 1%;
 				  background: rgba(0,0,0,0.2);
 				  padding: 20px 25px;
-				  /*margin-bottom: 20px;*/
 				  border-top-left-radius:40px;
 				  border-bottom-right-radius:40px;
 				  color: #F6ECEC;
@@ -2669,34 +2427,27 @@
 			}
 
 				footer{
-					/*border: 2px red solid;*/
 					height: 30px;
 				}
 
 
 		.lb-overlay article, .lb-overlay figure
 			{
-				/*border: 2px solid red;*/
 				display: inline-block;
 			}
 
 			.lb-overlay article{
-				/*border: 2px solid green;*/
 				width: 45%;
 
 			}
 			
 			.lb-overlay > figure 
 			{
-				/*display: block;*/
 				width: 50%;
 				left: 0px;
 				left: 4%;
 				margin: 0px;
-				height: 580px;
-				/*position: absolute;*/
-				/*border: 2px solid red;*/
-			
+				height: 580px;		
 			}
 
 			.lb-overlay figure > img
@@ -2705,7 +2456,6 @@
 			}
 
 			.lb-overlay article {
-				/*border: 2px solid green;*/
 				padding-top: 140px;
 			}
 		
