@@ -1,8 +1,14 @@
 /*DISEÑO RESPONSIVO PARA DISPOSITIVOS MOVILES*/
 
+
 @media screen and (max-width: 480px){ 
 			/*COnfiguracion del menu responsivo*/
-			
+			.conten-inicio
+			{
+				/*border: 2px solid green;*/
+				width: 100%;
+			}
+
 			.subMenu
 			{
 				width: 100%;
@@ -95,11 +101,11 @@
 
 				.subtitle
 				{
-				  font-size: 15px;
-				  color: #000;
-				  text-align: left;
-				  margin-bottom: 50px;
-				  width: 70%;
+				  font-size: 14px;
+				  /*color: #000;*/
+				  /*text-align: left;*/
+				  /*margin-bottom: 50px;*/
+				  /*width: 100%;*/
 				}
 
 				/*------------------------------------*/
@@ -1650,6 +1656,11 @@
 				margin: 17px 10px;
 			}
 			
+			.sTop .conten-inicio
+			{
+				margin-left:50px;
+				margin-top: 150px;
+			}
 			
 			/*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
 			
@@ -2202,6 +2213,12 @@
 			
 			/*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
 
+			.sTop .conten-inicio
+			{
+				margin-left:50px;
+				margin-top: 200px;
+			}
+
 		/***********************Diseño Responsivo Full SCREEN**********************/
 			
 
@@ -2314,6 +2331,13 @@
 				margin: 15px 10px;
 			}
 
+			.sTop .conten-inicio
+			{
+				margin-left:50px;
+				margin-top: 240px;
+				/*border: 2px solid red;*/
+			}
+
 			/***********************Diseño Responsivo Full SCREEN**********************/
 			
 
@@ -2350,6 +2374,36 @@
 }
 
 @media screen and (min-width: 1367px) {
+	
+	.subMenu
+	{
+		/*border: 2px solid blue;*/
+		height: 120px;
+	}
+
+	.contenMenu
+	{
+		/*border: 2px solid orange;*/
+	}
+
+   .subNavBtn {
+	  height: 72px;
+	  padding: 48px 2% 0 2%;
+	  font-size: 22px;
+	  /*border: 2px solid green;*/
+		}
+
+	.logo
+	{
+		width: 280px;
+  		height: 120px;
+	}
+
+	.inner {
+		width: 1200px;
+	}
+
+	
 
 	.sTop
 			{
@@ -2359,9 +2413,10 @@
 
 			.sTop .conten-inicio
 			{
-				width: 80%;
-				margin-left: 10px;
-				margin-top: 100px;
+				width: 90%;
+				margin-left:50px;
+				margin-top: 300px;
+				/*border: 2px solid red;*/
 			}
 
 			.title{
