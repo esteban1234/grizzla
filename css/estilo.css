@@ -71,11 +71,14 @@ a {
 
 .logo,.inner{
   display: inline-block;
+  /*border: 2px solid red;*/
 }
+
 .conten-inicio{
-  margin: 180px 0 0 80px;
+  /*margin: 180px 0 0 80px;*/
   height: auto;
 }
+
 
 .boton{
   background: #0180ab;
@@ -172,6 +175,7 @@ a {
   padding: 50px 0;
 	height: 100%;
   width: 100%;
+  /*border: 2px solid green;*/
 }
 
 .sections
