@@ -18,7 +18,7 @@
 
             <a href="http://www.google.es">
             <li>
-                <div class="barra"></div>
+                <div class="barra active"></div>
                 <p class="menu">Inicio</p>
             </li>
             </a>
@@ -43,16 +43,12 @@
                 <p class="menu">Contacto</p>
             </li>
             </a>
-
-
-
         </ul>
     </nav>
 </article>
 
 
     <section class="contienetodo">
-        hola
 
     </section>
 </body>

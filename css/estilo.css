@@ -73,34 +73,18 @@ div.barra {
     background-color: rgb(203, 71, 23);
 }
 
+div.active {
+    position: absolute;
+    height: 50px;
+    width: 100%;
+    /*background-color: #aaa;*/
+    opacity: .1;
+    /*-webkit-transition: width .2s;*/
+    background-color: rgb(203, 71, 23);
+}
+
 li:hover div.barra {
     width: 300px;
-}
-
-input#buscador {
-    width: 285px;
-    height: 50px;
-    background-color: #3c3c3c;
-    outline: none;
-    border: 0px;
-    color: white;
-    font-size: 1.2em;
-    text-align: right;
-    padding-right: 15px;
-    background-image: url(img/search.png);
-    background-repeat: no-repeat;
-    background-position: 15px 15px;
-    -webkit-transition: background-position .2s;
-}
-
-input#buscador:focus {
-    background-position: 300px 15px;
-}
-
-::-webkit-input-placeholder {
-    color: #e2e2e2;
-    text-align: right;
-    opacity: .1;
 }
 
 li:hover p.menu {
@@ -110,5 +94,6 @@ li:hover p.menu {
 
 .contienetodo {
     outline: 2px red solid;
-    width: 50%;
+    width: 74%;
+    height: 100%;
 }
