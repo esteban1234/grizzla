@@ -1,0 +1,163 @@
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+    width: 100%;
+}
+
+#body1 {
+    background: url('../img/11.jpg') no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-size: 100% 100%;
+    position: relative;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+/*header*/
+
+.header {
+    width: 100%;
+    /*outline: 2px red solid;*/
+    height: 60px;
+    margin-top: 2%;
+}
+
+.contenedor {
+    /*outline: 2px yellow solid;*/
+    width: 90%;
+    margin: 0 auto;
+}
+
+.nav {
+    width: 50%;
+    /*outline: 2px green solid;*/
+    top: 0;
+    left: 0%;
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu_item {
+    display: inline-block;
+}
+
+.menu_link {
+    position: relative;
+    list-style: none;
+    padding: 15px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    /*background-color: #fba919;*/
+    font-family: 'Open Sans', sans-serif;
+    /*vertical-align: top;*/
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+.menu_link:hover {
+    background-color: white;
+    color: #CB4717;
+}
+
+.select {
+    background-color: white;
+    color: #CB4717;
+    /*vertical-align: top;*/
+}
+
+.logo {
+    /*outline: 2px red solid;*/
+    width: 30%;
+    height: 250px;
+    background: url('../img/GRIZZLA.png') no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-size: 100% 100%;
+    position: relative;
+    background-position: center center;
+    background-repeat: no-repeat;
+    margin-left: 10%;
+    margin-top: 5%;
+    /*background-attachment: fixed;*/
+}
+
+.slogan {
+    /*outline: 2px red solid;*/
+    position: relative;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    top: -55px;
+}
+
+.slogan p {
+    /*outline: 2px green solid;*/
+    width: 28%;
+    margin-left: 14.5%;
+}
+
+.slogan2 {
+    /*outline: 2px red solid;*/
+    position: relative;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    /*top: -55px;*/
+}
+
+.slogan2 a {
+    /*outline: 2px #6A1513 solid;*/
+    /*width: 28%;*/
+    padding: 20px;
+    margin-left: 27%;
+    margin-top: 5%;
+    text-decoration: none;
+    color: #CB4717;
+    -webkit-box-shadow: inset 0px 0px 300px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: inset 0px 0px 300px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: inset 0px 0px 300px 0px rgba(0, 0, 0, 0.75);
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+.slogan2 a:hover {
+    color: #6A1513;
+    background-color: #fff;
+    outline: none;
+    box-shadow: none;
+}
+
+
+/*-------------------nosotros-----------*/
+
+.no {
+    outline: 2px red solid;
+    font-size: 20px;
+    color: green;
+}
