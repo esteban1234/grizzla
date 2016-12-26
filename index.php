@@ -6,6 +6,7 @@
 <body id="body1">
 
 		<?php include 'vistas/menu.php';?>
+		<h1 class="titulo">AGENCIA DE PUBLICIDAD</h1>
 
 	<figure class="logo">
     </figure>
