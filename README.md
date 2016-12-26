@@ -1,2 +1,0 @@
-# grizzla
-Pagina de Grizzla

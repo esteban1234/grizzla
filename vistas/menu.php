@@ -1,5 +1,5 @@
 <!-- header -->
-    <header class="header">
+    <header class="header" style="display:none;">
       <div class="contenedor">
           <nav class="nav">
             <ul class="menu">

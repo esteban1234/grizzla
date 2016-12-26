@@ -86,18 +86,25 @@ p {
     /*outline: 2px red solid;*/
 }
 
-
-/*.logodos {
-    width: 100px;
-    height: 80px;
-}
-
-.logodos img {
-    width: 100px;
-    height: 80px;
-}*/
-
 .logodos {
     float: right;
     margin-right: 15%;
+}
+
+
+/*-------------------nosotros-----------*/
+
+.conten {
+    outline: 2px red solid;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 5%;
+    text-align: center;
+}
+
+.conten p {
+    width: 20%;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 5%;
 }

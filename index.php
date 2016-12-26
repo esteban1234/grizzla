@@ -16,7 +16,7 @@
     <article class="slogan" style="display:none;"><p>Con buena publicidad, vendes mas!!</p></article>
     <article class="slogan2" style="display:none;"><a href="">Contáctanos</a></article>
 
-    <script src="jquery.js"></script>
+    <script src="js/jquery.js"></script>
 
 <script type="text/javascript">
 $(document).ready(function(){
