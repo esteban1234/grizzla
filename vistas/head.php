@@ -2,7 +2,7 @@
     <head>
         <meta charset="utf-8">
             <title>
-                Ejemplo de pantalla
+                GRIZZLA ALTA PUBLICIDAD
             </title>
             <link href="css/estilos.css" rel="stylesheet">
                 <link href="https://fonts.googleapis.com/css?family=Open+Sans|Yanone+Kaffeesatz" rel="stylesheet">
