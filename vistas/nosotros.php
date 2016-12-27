@@ -20,7 +20,7 @@
 <article class="titulonos scrollflow -slide-left -opacity"><p>¿POR QUÉ CONTRATARNOS?</p></article>
 
 <article class="contenpuntos scrollflow -slide-right -opacity">
-	fa-flag on fa-circle<br>
+	<span class="fa-flag on fa-circle"></span><br>
 <span class="fa-stack fa-lg">
   <i class="fa fa-square fa-stack-2x"></i>
   <i class="fa fa-terminal fa-stack-1x fa-inverse"></i>
