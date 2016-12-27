@@ -80,17 +80,6 @@
 			Compromiso
 		</p>
 	</article>
-
-<article class="mision">
-	<p class="calidad">Valores</p>
-	<p class="texto_calidad">
-	Responsabilidad <br>
-		Respeto <br>
-		Puntualidad <br>
-		Honestidad <br>
-		Compromiso
-	</p>
-
 </article>
 
 <?php include 'pie.php';?>
