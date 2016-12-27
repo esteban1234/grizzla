@@ -95,21 +95,6 @@
 
 /*-------------------nosotros-----------*/
 
-.conten {
-    outline: 2px red solid;
-    width: 80%;
-    margin: 0 auto;
-    margin-top: 5%;
-    text-align: center;
-}
-
-.conten p {
-    width: 20%;
-    display: inline-block;
-    vertical-align: top;
-    margin-left: 5%;
-}
-
 .bannernos {
     position: relative;
     width: 100%;
@@ -170,4 +155,81 @@
     background-repeat: no-repeat;
     background-attachment: fixed;
     overflow: hidden;
+}
+
+.conteniconos {
+    /*outline: 2px red solid;*/
+    width: 40%;
+    float: right;
+    margin-right: 8%;
+    margin-top: 2%;
+}
+
+.iconotexto {
+    /*outline: 2px yellow solid;*/
+    overflow: hidden;
+    margin-bottom: 4%;
+}
+
+.icono {
+    /*outline: 2px green solid;*/
+    float: left;
+    /*padding: 1%;*/
+    margin-top: 8%;
+}
+
+.icono2 {
+    /*outline: 2px green solid;*/
+    float: left;
+    /*padding: 1%;*/
+    margin-top: 13.5%;
+}
+
+.icon-star,
+.icon-arrows-alt,
+.icon-bullhorn {
+    font-size: 50px;
+    color: #CB4717;
+}
+
+.texton {
+    /*outline: 2px red solid;*/
+    float: right;
+    width: 88%;
+    overflow: hidden;
+}
+
+.calidad {
+    /*outline: 2px red solid;*/
+    text-align: justify;
+    font-family: 'Lato', sans-serif;
+    font-size: 25px;
+    color: #6A1513;
+    margin-bottom: 2%;
+}
+
+.texto_calidad {
+    /*outline: 2px red solid;*/
+    text-align: justify;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    color: #B73C16;
+    /*margin-bottom: 2%;*/
+}
+
+.contenmvv {
+    /*outline: 2px red solid;*/
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 1%;
+    /*text-align: center;*/
+}
+
+.mision {
+    /*outline: 2px red solid;*/
+    width: 26%;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 7%;
+    text-align: justify;
 }
