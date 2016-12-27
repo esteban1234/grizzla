@@ -45,11 +45,50 @@
 		</article>		
 	</article>
 
-<article class="ser2">
-	
+<article class="ser2 scrollflow -slide-left -opacity">
+	<article class="perifoneo">
+		<article class="fondo">
+			<p class="fondop">PERIFONEO</p>
+		</article>
+	</article>
+
+	<article class="marketing">
+		<article class="fondo">
+			<p class="fondop">MARKETING</p>
+		</article>
+	</article>
+
+	<article class="e-marketing">
+		<article class="fondo">
+			<p class="fondop">e-MARKETING</p>
+		</article>
+	</article>
 </article>
 
+<article class="ser2 scrollflow -slide-left -opacity">
+	<article class="carteleras">
+		<article class="fondo">
+			<p class="fondop">CARTELERAS</p>
+		</article>
+	</article>
 
+	<article class="toldos">
+		<article class="fondo">
+			<p class="fondop">TOLDOS LUMINOSOS</p>
+		</article>
+	</article>
+
+	<article class="anuncios">
+		<article class="fondo">
+			<p class="fondop">ANUNCIOS ELECTRICOS</p>
+		</article>
+	</article>
+</article>
+
+<article class="boton">
+      <!-- <p class="btnserv"><a href="">Servicios</a></p> -->
+      <a class="a" href="contacto.php"><p class="btnserv">Contactános</p></a>
+    </article>
 </article>
 
 

@@ -82,6 +82,11 @@
 	</article>
 </article>
 
+<article class="boton">
+      <!-- <p class="btnserv"><a href="">Servicios</a></p> -->
+      <a class="a" href="contacto.php"><p class="btnserv">Contactános</p></a>
+    </article>
+
 <?php include 'pie.php';?>
 
 
