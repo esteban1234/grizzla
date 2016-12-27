@@ -221,7 +221,8 @@
     /*outline: 2px red solid;*/
     width: 80%;
     margin: 0 auto;
-    margin-top: 1%;
+    margin-top: 2.5%;
+    overflow: hidden;
     /*text-align: center;*/
 }
 
@@ -231,5 +232,218 @@
     display: inline-block;
     vertical-align: top;
     margin-left: 7%;
-    text-align: justify;
+    background-color: #9c640c;
+    padding: 20px;
+    /*border-radius: 10px;*/
+    border-radius: 15px 50px;
+    /*text-align: justify;*/
+}
+
+.texto_mvv {
+    /*outline: 2px red solid;*/
+    /*text-align: justify;*/
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    color: #f7f9f9;
+    /*margin-bottom: 2%;*/
+}
+
+
+/*-----------------pie-------------*/
+
+footer {
+    height: 230px;
+    width: 100%;
+    background-color: #F39C12;
+    margin-top: 2.5%;
+    border-top: 5px #CB4717 solid;
+    overflow: hidden;
+}
+
+.cuadropie,
+.cuadropiemapa,
+.cuadropiecopy {
+    vertical-align: top;
+    display: inline-block;
+    margin-left: 2%;
+}
+
+.cuadropie {
+    /*outline: 2px red solid;*/
+    width: 26%;
+    margin-left: 2%;
+    margin-top: 1%;
+}
+
+.direccion {
+    font-family: 'Lato', sans-serif;
+    font-size: 22px;
+    color: #6A1513;
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    width: 100%;
+    /*outline: 1px white solid;*/
+}
+
+.text_direccion {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    color: #fff;
+    /*text-align: center;*/
+    padding-top: 2%;
+    width: 100%;
+    /*outline: 1px white solid;*/
+    padding: 10px;
+}
+
+.text_direccion b {
+    color: #6A1513;
+}
+
+.cuadropiemapa {
+    /*outline: 2px red solid;*/
+    width: 35%;
+    margin-left: 2%;
+    margin-top: .5%;
+    height: 200px;
+}
+
+.cuadropiemapa iframe {
+    /*outline: 2px red solid;*/
+    width: 100%;
+    height: 200px;
+}
+
+.cuadropiecopy {
+    /*outline: 2px red solid;*/
+    width: 30%;
+    margin-left: 2%;
+    margin-top: 5.5%;
+}
+
+.copy {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    color: #6A1513;
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    width: 100%;
+    /*outline: 1px white solid;*/
+}
+
+
+/*------------------ir-arriba-------------*/
+
+.ir-arriba {
+    display: none;
+    padding: 20px;
+    background: #6A1513;
+    font-size: 20px;
+    color: #fff;
+    cursor: pointer;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+
+/*-------------contacto------*/
+
+.bannercont {
+    position: relative;
+    width: 100%;
+    height: 410px;
+    background: url('../img/contacto.jpg') no-repeat center;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    /*background-attachment: fixed;*/
+    overflow: hidden;
+}
+
+.titulocont {
+    /*outline: 2px red solid;*/
+    width: 100%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    background-color: #6A1513;
+}
+
+.titulocont p {
+    outline: 1px white solid;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    color: #CB4717;
+    font-weight: bold;
+}
+
+
+/*--------------------------form------*/
+
+.form-register {
+    /*outline: 2px red solid;*/
+    width: 95%;
+    max-width: 500px;
+    margin: auto;
+    background-color: #f2f3f4;
+    border-radius: 7px;
+    margin-top: 2%;
+}
+
+.form_titulo {
+    /*background-color: deepskyblue;*/
+    background-color: #F39C12;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-weight: 100;
+    font-size: 30px;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    border-bottom: 5px crimson solid;
+}
+
+.contenedor-inputs {
+    padding: 10px 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+input {
+    margin-bottom: 15px;
+    padding: 15px;
+    font-size: 16px;
+    border-radius: 3px;
+    border: 1px solid darkgray;
+}
+
+.input-48 {
+    width: 48%;
+}
+
+.input-100 {
+    width: 100%;
+}
+
+.btn-enviar {
+    background-color: crimson;
+    color: #fff;
+    margin: auto;
+    padding: 10px 40px;
+}
+
+.btn-enviar:active {
+    transform: scale(1.05);
+}
+
+.areac:focus {
+    height: 100px;
 }
