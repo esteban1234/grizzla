@@ -383,7 +383,8 @@ footer {
     outline: 1px #F39C12 solid;
     width: 40%;
     float: left;
-    margin-bottom: 2%/*border-right: 1px red solid;*/
+    margin-bottom: 2%
+    /*border-right: 1px red solid;*/
     /*border-bottom: 1px red solid;*/
 }
 
@@ -392,7 +393,8 @@ footer {
     width: 40%;
     float: right;
     margin-right: 2%;
-    margin-bottom: 2%/*border-right: 1px red solid;*/
+    margin-bottom: 2%
+    /*border-right: 1px red solid;*/
     /*border-bottom: 1px red solid;*/
 }
 
@@ -449,7 +451,7 @@ footer {
     /*outline: 2px red solid;*/
     width: 20%;
     height: 180px;
-    background: url('../img/perifoneo.jpg') no-repeat center;
+    background: url('../img/peri.jpg') no-repeat center;
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
