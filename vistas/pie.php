@@ -10,6 +10,9 @@
 			<b>Tel:</b>&nbsp;pendiente
 		</p>
 		<p class="text_direccion">
+			<b>Correo:</b>&nbsp;info@grizzla.com.mx
+		</p>
+		<p class="text_direccion">
 			<b>Horario:</b>&nbsp;Lunes a Viernes de 9am a 6pm.
 		</p>
 	</article>

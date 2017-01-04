@@ -291,10 +291,10 @@ footer {
     font-size: 16px;
     color: #fff;
     /*text-align: center;*/
-    padding-top: 2%;
+    padding-top: 1%;
     width: 100%;
     /*outline: 1px white solid;*/
-    padding: 10px;
+    /*padding: 10px;*/
 }
 
 .text_direccion b {
