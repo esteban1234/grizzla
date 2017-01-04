@@ -7,7 +7,7 @@
 
 		<?php include 'vistas/menu.php';?>
 
-		<h1 class="titulo" style="display:none;">AGENCIA DE PUBLICIDAD</h1>
+		<!-- <h1 class="titulo" style="display:none;">AGENCIA DE PUBLICIDAD</h1> -->
 
 	<figure class="logo" style="display:none;">
     </figure>

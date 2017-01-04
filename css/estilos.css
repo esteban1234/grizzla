@@ -86,17 +86,17 @@ html {
     /*vertical-align: top;*/
 }
 
-.titulo {
-    /*outline: 2px red solid;*/
+
+/*.titulo {
+    outline: 2px red solid;
     width: 100%;
     text-align: center;
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
     font-size: 45px;
-    /*color: #6A1513;*/
     color: #CB4717;
     margin-top: 1%;
-}
+}*/
 
 .logo {
     /*outline: 2px red solid;*/
@@ -119,7 +119,8 @@ html {
 .slogan {
     /*outline: 2px red solid;*/
     position: relative;
-    color: white;
+    /*color: #CB4717;*/
+    color: #6A1513;
     font-family: 'Open Sans', sans-serif;
     font-size: 18px;
     top: -55px;
