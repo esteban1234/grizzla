@@ -80,6 +80,15 @@ html {
     color: #CB4717;
 }
 
+.oculto{
+  display: none;
+}
+
+.menu-responsive
+{
+  display: none;
+}
+
 .select {
     background-color: white;
     color: #CB4717;

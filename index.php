@@ -17,17 +17,18 @@
     <article class="slogan2" style="display:none;"><a href="vistas/contacto.php">Contáctanos</a></article>
 
     <script src="js/jquery.js"></script>
-<script type="text/javascript">
-$(document).ready(function(){
-	 $(document).ready(function () {
-		 $('.titulo').fadeIn(2500);
-		 $('.header').fadeIn(2500);
-		 $('.logo').fadeIn(2500);
-		 $('.slogan').fadeIn(2500);
-		 $('.slogan2').fadeIn(2500);
-	 });
-});
-</script>
+		<script src="js/menu.js"></script>
+		<script type="text/javascript">
+				$(document).ready(function(){
+				 $(document).ready(function () {
+			 $('.titulo').fadeIn(2500);
+			 $('.header').fadeIn(2500);
+			 $('.logo').fadeIn(2500);
+			 $('.slogan').fadeIn(2500);
+			 $('.slogan2').fadeIn(2500);
+		 });
+	 		});
+		</script>
 
 </body>
 </html>

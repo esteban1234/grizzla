@@ -1,26 +1,44 @@
 @media screen and (max-width: 480px){
   .contenedor
   {
-    /*border: 2px solid red;*/
-    /*display: none;*/
+    z-index: 1000;
+    position: absolute;
+    left: 5%;
+    display: none;
+  }
+
+  .oculto
+  {
+    display: block;
   }
 
   .menu-responsive
   {
-    border: 2px solid red;
+    background: rgba(57, 161, 227, 0.92);
+    color: #fff;
   }
 
   .menu-responsive p{
-    border: 2px solid yellow;
+    width: 78%;
+    display: inline-block;
+    padding: 20px;
+    font-size: 25px;
   }
 
   .menu-responsive span
   {
-    border: 2px solid red;
+    display: inline-block;
+    width: 20%;
+    text-align: center;
+    margin-top: 6%;
+  }
+
+  .icon-bars
+  {
+    font-size: 30px;
   }
 
   .nav{
-    /*border: 2px solid green;*/
     width: 100%;
   }
 
@@ -203,11 +221,66 @@
 }
 
 @media screen and (max-width: 599px) and (min-width: 481px) {
+
   .contenedor
   {
-    border: 2px solid red;
+    z-index: 10000;
+    position: absolute;
+    left: 5%;
     display: none;
   }
+
+  .oculto
+  {
+    display: block;
+  }
+
+  .menu-responsive
+  {
+    background: rgba(57, 161, 227, 0.92);
+    color: #fff;
+    text-align: center;
+  }
+
+  .menu-responsive p{
+    width: 50%;
+    display: inline-block;
+    padding: 30px;
+    font-size: 25px;
+    text-align: left;
+  }
+
+  .menu-responsive span
+  {
+    display: inline-block;
+    width: 20%;
+    text-align: center;
+    margin-top: 6%;
+  }
+
+  .icon-bars
+  {
+    font-size: 30px;
+  }
+
+  .nav{
+    width: 100%;
+  }
+
+  .nav .menu .menu_item
+  {
+    width: 100%;
+    text-align: center;
+    height: 100%;
+  }
+
+  .menu_item a
+  {
+    width: 100%;
+    height: 100%;
+    display: block;
+  }
+
 
   .logo
   {
@@ -383,10 +456,64 @@
 
 @media screen and (max-width: 799px) and (min-width: 600px) {
 
+
   .contenedor
   {
-    /*border: 2px solid red;*/
+    z-index: 10000;
+    position: absolute;
+    left: 5%;
     display: none;
+  }
+
+  .oculto
+  {
+    display: block;
+  }
+
+  .menu-responsive
+  {
+    background: rgba(57, 161, 227, 0.92);
+    color: #fff;
+    text-align: center;
+  }
+
+  .menu-responsive p{
+    width: 50%;
+    display: inline-block;
+    padding: 30px;
+    font-size: 25px;
+    text-align: left;
+  }
+
+  .menu-responsive span
+  {
+    display: inline-block;
+    width: 20%;
+    text-align: center;
+    margin-top: 6%;
+  }
+
+  .icon-bars
+  {
+    font-size: 30px;
+  }
+
+  .nav{
+    width: 100%;
+  }
+
+  .nav .menu .menu_item
+  {
+    width: 100%;
+    text-align: center;
+    height: 100%;
+  }
+
+  .menu_item a
+  {
+    width: 100%;
+    height: 100%;
+    display: block;
   }
 
   .logo
@@ -567,32 +694,77 @@
 }
 
 @media screen and (max-width: 1023px) and (min-width: 800px) {
+
   .contenedor
   {
-    /*display: none;*/
-    /*border: 2px solid red;*/
+    z-index: 10000;
+    position: absolute;
+    left: 5%;
+    display: none;
+  }
+
+  .oculto
+  {
+    display: block;
+  }
+
+  .menu-responsive
+  {
+    background: rgba(57, 161, 227, 0.92);
+    color: #fff;
+    text-align: center;
+  }
+
+  .menu-responsive p{
+    width: 50%;
+    display: inline-block;
+    padding: 30px;
+    font-size: 25px;
+    text-align: left;
+  }
+
+  .menu-responsive span
+  {
+    display: inline-block;
+    width: 20%;
+    text-align: center;
+    margin-top: 6%;
+  }
+
+  .icon-bars
+  {
+    font-size: 30px;
+  }
+
+  .nav{
     width: 100%;
   }
 
-  .contenedor nav
+  .nav .menu .menu_item
   {
-    /*border: 2px solid red;*/
-    width: 90%;
-    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+    height: 100%;
   }
 
+  .menu_item a
+  {
+    width: 100%;
+    height: 100%;
+    display: block;
+  }
   /******************INICIA NOSOTROS**************/
   .header
   {
     /*border: 2px solid red;*/
   }
 
-  .contenedor
+  /*.contenedor
   {
     width: 70%;
     margin: 3% auto;
     display: inline-block;
-  }
+  }*/
 
   .logodos
   {
@@ -699,6 +871,7 @@
   .contenedor
   {
     width: 100%;
+    display: block;
   }
 
   .contenedor nav
@@ -708,12 +881,16 @@
     margin: 0 auto;
   }
 
-  .contenedor
+  .menu-responsive
+  {
+    display: none;
+  }
+  /*.contenedor
   {
     width: 70%;
     margin: 3% auto;
     display: inline-block;
-  }
+  }*/
 
   .logodos
   {
