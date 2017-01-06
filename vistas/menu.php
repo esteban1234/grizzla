@@ -1,5 +1,9 @@
 <!-- header -->
     <header class="header" style="display:none;">
+      <div class="menu-responsive">
+        <p>MENU</p>
+        <span class="icon-men"></span>
+      </div>
       <div class="contenedor">
           <nav class="nav">
             <ul class="menu">

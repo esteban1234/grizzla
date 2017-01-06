@@ -1,8 +1,41 @@
 @media screen and (max-width: 480px){
   .contenedor
   {
+    /*border: 2px solid red;*/
+    /*display: none;*/
+  }
+
+  .menu-responsive
+  {
     border: 2px solid red;
-    display: none;
+  }
+
+  .menu-responsive p{
+    border: 2px solid yellow;
+  }
+
+  .menu-responsive span
+  {
+    border: 2px solid red;
+  }
+
+  .nav{
+    /*border: 2px solid green;*/
+    width: 100%;
+  }
+
+  .nav .menu .menu_item
+  {
+    width: 100%;
+    text-align: center;
+    height: 100%;
+  }
+
+  .menu_item a
+  {
+    width: 100%;
+    height: 100%;
+    display: block;
   }
 
   .logo
