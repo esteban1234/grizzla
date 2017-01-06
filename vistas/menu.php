@@ -2,7 +2,7 @@
     <header class="header" style="display:none;">
       <div class="menu-responsive">
         <p>MENU</p>
-        <span class="icon-men"></span>
+        <span class="icon-bars"></span>
       </div>
       <div class="contenedor">
           <nav class="nav">
