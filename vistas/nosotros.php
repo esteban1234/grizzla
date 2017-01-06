@@ -5,7 +5,7 @@
 
 <body>
 
-        <?php include 'menudos.php';?>
+<?php include 'menudos.php';?>
 
 <span class="ir-arriba icon-chevron-up"></span>
 
@@ -37,7 +37,7 @@
 		</article>
 
 		<article class="iconotexto">
-			<article class="icono2"><span class="icon-arrows-alt"></span></article>
+			<article class="icono"><span class="icon-arrows-alt"></span></article>
 			<article class="texton">
 				<p class="calidad">Servicio</p>
 				<p class="texto_calidad">Somos una agencia estricta en la excelencia de la calidad de nuestros servicios. Contamos con un equipo creativo de expertos en la materia, aportando siempre, las ideas más innovadoras que impulsarán el crecimiento de tu empresa y de tu marca.</p>
@@ -70,7 +70,7 @@
 
 	<article class="mision">
 		<p class="calidad">Valores</p>
-		<p class="texto_mvv">		
+		<p class="texto_mvv">
 		Responsabilidad <br>
 			Respeto <br>
 			Puntualidad <br>
@@ -83,9 +83,8 @@
 </article>
 
 <article class="boton">
-      <!-- <p class="btnserv"><a href="">Servicios</a></p> -->
-      <a class="a" href="contacto.php"><p class="btnserv">Contactános</p></a>
-    </article>
+  <a class="a" href="contacto.php"><p class="btnserv">Contactános</p></a>
+</article>
 
 <?php include 'pie.php';?>
 

@@ -10,7 +10,7 @@
 		<!-- <h1 class="titulo" style="display:none;">AGENCIA DE PUBLICIDAD</h1> -->
 
 	<figure class="logo" style="display:none;">
-    </figure>
+  </figure>
 
 
     <article class="slogan" style="display:none;"><p>Con buena publicidad, vendes mas!!</p></article>

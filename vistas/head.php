@@ -11,6 +11,7 @@
            <META name="Description" content="Somos una compañía ubicada en la ciudad de Mérida, Yucatán, México, dedicados a ofrecer productos para publicidad, Marketing, e-marketing, lonas, perifoneo y toldos."/>
            <META NAME="Keywords" CONTENT="productos para publicidad merida yucatan, publicidad merida yucatan, publicidad, GRIZZLA merida yucatan, GRIZZLA yucatan, perifoneo merida yucatan, ampliaciones de casa merida yucatan, Marketing merida yucatan, productos de publicidad, e-marketing, mexico merida yucatan, desarrollo de proyectos de publicidad"/>
             <link href="css/estilos.css" rel="stylesheet">
+            <link href="css/responsivo.css" rel="stylesheet">
             <link href="https://fonts.googleapis.com/css?family=Open+Sans|Yanone+Kaffeesatz" rel="stylesheet">
             <link href="https://file.myfontastic.com/oZrD95afmh6F7UiEtyxVF9/icons.css" rel="stylesheet">
                     </link>
