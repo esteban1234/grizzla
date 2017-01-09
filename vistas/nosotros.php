@@ -8,7 +8,7 @@
 
 <span class="ir-arriba icon-chevron-up"></span>
 
-<article class="bannernos" style="display:none;"></article>
+<article class="bannernos"></article>
 <article class="titulonos" style="display:none;"><p>LA AGENCIA</p></article>
 
 <article class="contentex scrollflow -slide-top -opacity">
