@@ -1,880 +1,664 @@
-@media screen and (max-width: 480px){
-  .contenedor
-  {
-    z-index: 1000;
-    position: absolute;
-    left: 5%;
-    display: none;
-    background: rgba(57, 161, 227, 0.92);
-  }
-
-  .oculto
-  {
-    display: block;
-  }
-
-  .menu-responsive
-  {
-    background: rgba(57, 161, 227, 0.92);
-    color: #fff;
-    display: block;
-  }
-
-  .menu-responsive p{
-    width: 78%;
-    display: inline-block;
-    padding: 20px;
-    font-size: 25px;
-  }
-
-  .menu-responsive span
-  {
-    display: inline-block;
-    width: 20%;
-    text-align: center;
-    margin-top: 6%;
-  }
-
-  .icon-bars
-  {
-    font-size: 30px;
-  }
-
-  .nav{
-    width: 100%;
-  }
-
-  .nav .menu .menu_item
-  {
-    width: 100%;
-    text-align: center;
-    height: 100%;
-  }
-
-  .menu_item a
-  {
-    width: 100%;
-    height: 100%;
-    display: block;
-  }
-
-  .logo
-  {
-    width: 55%;
-    margin: 15% 0%;
-  }
-
-  .slogan p
-  {
-    display: none;
-  }
-
-  .slogan2 a{
-    display: none;
-  }
-
-  /*****************Inicia Nosotros*****************/
-  .logodos
-  {
-    /*border: 2px solid red;*/
-    width: 100%;
-    margin: 0px;
-    text-align: center;
-  }
-
-  .logodos img
-  {
-    /*border: 2px solid red;*/
-    width: 70%;
-  }
-
-  .bannernos
-  {
-    height: 100px;
-  }
-
-  .titulonos p
-  {
-    width: 100%;
-    /*border: 2px solid green;*/
-    font-size: 20px;
-  }
-
-  .contentexp
-  {
-    /*border: 2px solid red;*/
-    width: 90%;
-  }
-
-  .contenpuntos
-  {
-    /*border: 2px solid yellow;*/
-    height: 100%;
-    /*background-size: 100% 100%;*/
-    background: none;
-  }
-  .conteniconos
-  {
-    /*border: 2px solid red;*/
-    width: 100%;
-    margin: 0px;
-    height: 100%;
-  }
-
-  .iconotexto
-  {
-    /*border: 2px solid green;*/
-    width: 90%;
-    margin: 5% auto;
-  }
-
-  .icono
-  {
-    text-align: center;
-    width: 100%;
-  }
-
-  .texton
-  {
-    width: 100%;
-  }
-
-  .texton .calidad
-  {
-    text-align: center;
-  }
-
-  .mision
-  {
-    /*border: 2px solid red;*/
-    border-radius: 10px;
-    width: 100%;
-    margin: 5% auto;
-  }
-
-  .calidad
-  {
-    text-align: center;
-  }
-
-  .boton p
-  {
-    /*border: 2px solid red;*/
-    width: 60%;
-    font-size: 20px;
-  }
-
-  footer
-  {
-    height: 100%;
-  }
-
-  .cuadropiemapa
-  {
-    display: none;
-  }
-
-  .cuadropie, .cuadropiecopy
-  {
-    width: 100%;
-    margin: 2% auto;
-    padding: 10px;
-  }
-
-  /************INICIA SERVICIO****************/
-  .bannerser
-  {
-    /*border: 2px solid red;*/
-    background-size: 100% 100%;
-  }
-
-  .titulocont p
-  {
-    border: 2px solid green;
-    width: 100%;
-  }
-
-  .ser, .ser2
-  {
-    width: 100%;
-  }
-
-  .publicidad, .publicidad2
-  {
-    /*border: 2px solid blue;*/
-    width: 100%;
-    margin: 2% 0px;
-  }
-
-  .perifoneo, .marketing, .e-marketing,
-  .carteleras, .toldos, .anuncios
-  {
-    width: 100%;
-    margin: 2% 0px;
-  }
-
-
-  /*********************INICIA CONTACTO**************/
-  .contenedor-inputs input
-  {
-    /*border: 2px solid green;*/
-    width: 400%;
-  }
+@media screen and (max-width: 480px) {
+    .contenedor {
+        z-index: 1000;
+        position: absolute;
+        left: 5%;
+        display: none;
+        background: rgba(57, 161, 227, 0.92);
+    }
+    .oculto {
+        display: block;
+    }
+    .menu-responsive {
+        background: rgba(57, 161, 227, 0.92);
+        color: #fff;
+        display: block;
+    }
+    .menu-responsive p {
+        width: 78%;
+        display: inline-block;
+        padding: 20px;
+        font-size: 25px;
+    }
+    .menu-responsive span {
+        display: inline-block;
+        width: 20%;
+        text-align: center;
+        margin-top: 6%;
+    }
+    .icon-bars {
+        font-size: 30px;
+    }
+    .nav {
+        width: 100%;
+    }
+    .nav .menu .menu_item {
+        width: 100%;
+        text-align: center;
+        height: 100%;
+    }
+    .menu_item a {
+        width: 100%;
+        height: 100%;
+        display: block;
+    }
+    .logo {
+        width: 55%;
+        margin: 15% 0%;
+    }
+    .slogan p {
+        display: none;
+    }
+    .slogan2 a {
+        display: none;
+    }
+    /*****************Inicia Nosotros*****************/
+    .logodos {
+        /*border: 2px solid red;*/
+        width: 100%;
+        margin: 0px;
+        text-align: center;
+    }
+    .logodos img {
+        /*border: 2px solid red;*/
+        width: 70%;
+    }
+    .bannernos {
+        height: 100px;
+    }
+    .titulonos p {
+        width: 100%;
+        /*border: 2px solid green;*/
+        font-size: 20px;
+    }
+    .contentexp {
+        /*border: 2px solid red;*/
+        width: 90%;
+    }
+    .contenpuntos {
+        /*border: 2px solid yellow;*/
+        height: 100%;
+        /*background-size: 100% 100%;*/
+        background: none;
+    }
+    .conteniconos {
+        /*border: 2px solid red;*/
+        width: 100%;
+        margin: 0px;
+        height: 100%;
+    }
+    .iconotexto {
+        /*border: 2px solid green;*/
+        width: 90%;
+        margin: 5% auto;
+    }
+    .icono {
+        text-align: center;
+        width: 100%;
+    }
+    .texton {
+        width: 100%;
+    }
+    .texton .calidad {
+        text-align: center;
+    }
+    .mision {
+        /*border: 2px solid red;*/
+        border-radius: 10px;
+        width: 100%;
+        margin: 5% auto;
+    }
+    .calidad {
+        text-align: center;
+    }
+    .boton p {
+        /*border: 2px solid red;*/
+        width: 60%;
+        font-size: 20px;
+    }
+    footer {
+        height: 100%;
+    }
+    .cuadropiemapa {
+        display: none;
+    }
+    .cuadropie,
+    .cuadropiecopy {
+        width: 100%;
+        margin: 2% auto;
+        padding: 10px;
+    }
+    /************INICIA SERVICIO****************/
+    .bannerser {
+        /*border: 2px solid red;*/
+        background-size: 100% 100%;
+        /*display: none;*/
+    }
+    .titulocont p {
+        /*border: 2px solid green;*/
+        width: 100%;
+    }
+    .ser,
+    .ser2 {
+        width: 100%;
+    }
+    .publicidad,
+    .publicidad2 {
+        /*border: 2px solid blue;*/
+        width: 100%;
+        margin: 2% 0px;
+    }
+    .perifoneo,
+    .marketing,
+    .e-marketing,
+    .carteleras,
+    .toldos,
+    .anuncios {
+        width: 100%;
+        margin: 2% 0px;
+    }
+    /*********************INICIA CONTACTO**************/
+    .bannercont {
+        display: none;
+    }
+    .contenedor-inputs input {
+        /*border: 2px solid green;*/
+        width: 400%;
+    }
 }
 
 @media screen and (max-width: 599px) and (min-width: 481px) {
-
-  .contenedor
-  {
-    z-index: 1000;
-    position: absolute;
-    left: 5%;
-    display: none;
-    background: rgba(57, 161, 227, 0.92);
-  }
-
-  .oculto
-  {
-    display: block;
-  }
-
-  .menu-responsive
-  {
-    background: rgba(57, 161, 227, 0.92);
-    color: #fff;
-    display: block;
-  }
-
-  .menu-responsive p{
-    width: 78%;
-    display: inline-block;
-    padding: 20px;
-    font-size: 25px;
-  }
-
-  .menu-responsive span
-  {
-    display: inline-block;
-    width: 20%;
-    text-align: center;
-    margin-top: 6%;
-  }
-
-  .icon-bars
-  {
-    font-size: 30px;
-  }
-
-  .nav{
-    width: 100%;
-  }
-
-  .nav .menu .menu_item
-  {
-    width: 100%;
-    text-align: center;
-    height: 100%;
-  }
-
-  .menu_item a
-  {
-    width: 100%;
-    height: 100%;
-    display: block;
-  }
-
-  .logo
-  {
-    width: 55%;
-    margin: 13% 0%;
-  }
-
-  .slogan p
-  {
-    display: none;
-  }
-
-  .slogan2 a{
-    display: none;
-  }
-
-  /*****************Inicia Nosotros*****************/
-  .logodos
-  {
-    /*border: 2px solid red;*/
-    width: 70%;
-    margin: 0 auto;
-    text-align: center;
-    float: none;
-  }
-
-  .logodos img
-  {
-    /*border: 2px solid red;*/
-    width: 70%;
-  }
-
-  .bannernos
-  {
-    height: 100px;
-  }
-
-  .titulonos p
-  {
-    width: 100%;
-    /*border: 2px solid green;*/
-    font-size: 20px;
-  }
-
-  .contentexp
-  {
-    /*border: 2px solid red;*/
-    width: 90%;
-  }
-
-  .contenpuntos
-  {
-    /*border: 2px solid yellow;*/
-    height: 100%;
-    /*background-size: 100% 100%;*/
-    background: none;
-  }
-  .conteniconos
-  {
-    /*border: 2px solid red;*/
-    width: 100%;
-    margin: 0px;
-    height: 100%;
-  }
-
-  .iconotexto
-  {
-    /*border: 2px solid green;*/
-    width: 90%;
-    margin: 5% auto;
-  }
-
-  .icono
-  {
-    text-align: center;
-    width: 100%;
-  }
-
-  .texton
-  {
-    width: 100%;
-  }
-
-  .texton .calidad
-  {
-    text-align: center;
-  }
-
-  .mision
-  {
-    /*border: 2px solid red;*/
-    border-radius: 10px;
-    width: 100%;
-    margin: 5% auto;
-  }
-
-  .calidad
-  {
-    text-align: center;
-  }
-
-  .boton p
-  {
-    /*border: 2px solid red;*/
-    width: 60%;
-    font-size: 20px;
-  }
-
-  footer
-  {
-    height: 100%;
-  }
-
-  .cuadropiemapa
-  {
-    display: none;
-  }
-
-  .cuadropie, .cuadropiecopy
-  {
-    width: 100%;
-    margin: 2% auto;
-    padding: 10px;
-    /*border: 2px solid red;*/
-    /*text-align: center;*/
-  }
-
-  .cuadropie .text_direccion
-  {
-    font-size: 20px;
-    /*border: 2px solid red;*/
-  }
-
-  /************INICIA SERVICIO****************/
-  .bannerser
-  {
-    /*border: 2px solid red;*/
-    background-size: 100% 100%;
-  }
-
-  .titulocont p
-  {
-    /*border: 2px solid green;*/
-    width: 100%;
-  }
-
-  .ser, .ser2
-  {
-    width: 100%;
-  }
-
-  .publicidad, .publicidad2
-  {
-    /*border: 2px solid blue;*/
-    width: 100%;
-    margin: 2% 0px;
-  }
-
-  .perifoneo, .marketing, .e-marketing,
-  .carteleras, .toldos, .anuncios
-  {
-    width: 100%;
-    margin: 2% 0px;
-  }
-
-  /*********************INICIA CONTACTO**************/
-  .contenedor-inputs input
-  {
-    /*border: 2px solid green;*/
-    width: 400%;
-  }
+    .contenedor {
+        z-index: 1000;
+        position: absolute;
+        left: 5%;
+        display: none;
+        background: rgba(57, 161, 227, 0.92);
+    }
+    .oculto {
+        display: block;
+    }
+    .menu-responsive {
+        background: rgba(57, 161, 227, 0.92);
+        color: #fff;
+        display: block;
+    }
+    .menu-responsive p {
+        width: 78%;
+        display: inline-block;
+        padding: 20px;
+        font-size: 25px;
+    }
+    .menu-responsive span {
+        display: inline-block;
+        width: 20%;
+        text-align: center;
+        margin-top: 6%;
+    }
+    .icon-bars {
+        font-size: 30px;
+    }
+    .nav {
+        width: 100%;
+    }
+    .nav .menu .menu_item {
+        width: 100%;
+        text-align: center;
+        height: 100%;
+    }
+    .menu_item a {
+        width: 100%;
+        height: 100%;
+        display: block;
+    }
+    .logo {
+        width: 55%;
+        margin: 13% 0%;
+    }
+    .slogan p {
+        display: none;
+    }
+    .slogan2 a {
+        display: none;
+    }
+    /*****************Inicia Nosotros*****************/
+    .logodos {
+        /*border: 2px solid red;*/
+        width: 70%;
+        margin: 0 auto;
+        text-align: center;
+        float: none;
+    }
+    .logodos img {
+        /*border: 2px solid red;*/
+        width: 70%;
+    }
+    .bannernos {
+        height: 100px;
+    }
+    .titulonos p {
+        width: 100%;
+        /*border: 2px solid green;*/
+        font-size: 20px;
+    }
+    .contentexp {
+        /*border: 2px solid red;*/
+        width: 90%;
+    }
+    .contenpuntos {
+        /*border: 2px solid yellow;*/
+        height: 100%;
+        /*background-size: 100% 100%;*/
+        background: none;
+    }
+    .conteniconos {
+        /*border: 2px solid red;*/
+        width: 100%;
+        margin: 0px;
+        height: 100%;
+    }
+    .iconotexto {
+        /*border: 2px solid green;*/
+        width: 90%;
+        margin: 5% auto;
+    }
+    .icono {
+        text-align: center;
+        width: 100%;
+    }
+    .texton {
+        width: 100%;
+    }
+    .texton .calidad {
+        text-align: center;
+    }
+    .mision {
+        /*border: 2px solid red;*/
+        border-radius: 10px;
+        width: 100%;
+        margin: 5% auto;
+    }
+    .calidad {
+        text-align: center;
+    }
+    .boton p {
+        /*border: 2px solid red;*/
+        width: 60%;
+        font-size: 20px;
+    }
+    footer {
+        height: 100%;
+    }
+    .cuadropiemapa {
+        display: none;
+    }
+    .cuadropie,
+    .cuadropiecopy {
+        width: 100%;
+        margin: 2% auto;
+        padding: 10px;
+        /*border: 2px solid red;*/
+        /*text-align: center;*/
+    }
+    .cuadropie .text_direccion {
+        font-size: 20px;
+        /*border: 2px solid red;*/
+    }
+    /************INICIA SERVICIO****************/
+    .bannerser {
+        /*border: 2px solid red;*/
+        background-size: 100% 100%;
+        /*display: none;*/
+    }
+    .titulocont p {
+        /*border: 2px solid green;*/
+        width: 100%;
+    }
+    .ser,
+    .ser2 {
+        width: 100%;
+    }
+    .publicidad,
+    .publicidad2 {
+        /*border: 2px solid blue;*/
+        width: 100%;
+        margin: 2% 0px;
+    }
+    .perifoneo,
+    .marketing,
+    .e-marketing,
+    .carteleras,
+    .toldos,
+    .anuncios {
+        width: 100%;
+        margin: 2% 0px;
+    }
+    /*********************INICIA CONTACTO**************/
+    .bannercont {
+        display: none;
+    }
+    .contenedor-inputs input {
+        /*border: 2px solid green;*/
+        width: 400%;
+    }
 }
 
 @media screen and (max-width: 799px) and (min-width: 600px) {
-
-
-  .contenedor
-  {
-    z-index: 1000;
-    position: absolute;
-    left: 5%;
-    background: rgba(57, 161, 227, 0.92);
-    display: none;
-  }
-
-  .oculto
-  {
-    display: block;
-  }
-
-  .menu-responsive
-  {
-    background: rgba(57, 161, 227, 0.92);
-    color: #fff;
-    display: block;
-  }
-
-  .menu-responsive p{
-    width: 78%;
-    display: inline-block;
-    padding: 20px;
-    font-size: 25px;
-  }
-
-  .menu-responsive span
-  {
-    display: inline-block;
-    width: 20%;
-    text-align: center;
-    margin-top: 6%;
-  }
-
-  .icon-bars
-  {
-    font-size: 30px;
-  }
-
-  .nav{
-    width: 100%;
-  }
-
-  .nav .menu .menu_item
-  {
-    width: 100%;
-    text-align: center;
-    height: 100%;
-  }
-
-  .menu_item a
-  {
-    width: 100%;
-    height: 100%;
-    display: block;
-  }
-
-  .logo
-  {
-    width: 55%;
-    margin: 10% 0% 0% 0%;
-  }
-
-  .slogan p
-  {
-    /*display: none;*/
-    width: 60%;
-    margin: 0px;
-    text-align: center;
-  }
-
-  /*****************Inicia Nosotros*****************/
-  .logodos
-  {
-    /*border: 2px solid red;*/
-    width: 60%;
-    margin: 0 auto;
-    text-align: center;
-    float: none;
-  }
-
-  .logodos img
-  {
-    /*border: 2px solid red;*/
-    width: 70%;
-  }
-
-  .bannernos
-  {
-    height: 100px;
-  }
-
-  .titulonos p
-  {
-    width: 100%;
-    /*border: 2px solid green;*/
-    font-size: 25px;
-  }
-
-  .contentexp
-  {
-    /*border: 2px solid red;*/
-    width: 90%;
-  }
-
-  .contenpuntos
-  {
-    /*border: 2px solid yellow;*/
-    height: 100%;
-    /*background-size: 100% 100%;*/
-    background: none;
-  }
-  .conteniconos
-  {
-    /*border: 2px solid red;*/
-    width: 100%;
-    margin: 0px;
-    height: 100%;
-  }
-
-  .iconotexto
-  {
-    /*border: 2px solid green;*/
-    width: 90%;
-    margin: 5% auto;
-  }
-
-  .icono
-  {
-    text-align: center;
-    width: 100%;
-  }
-
-  .texton
-  {
-    width: 100%;
-  }
-
-  .texton .calidad
-  {
-    text-align: center;
-  }
-
-  .mision
-  {
-    /*border: 2px solid red;*/
-    border-radius: 10px;
-    width: 100%;
-    margin: 5% auto;
-  }
-
-  .calidad
-  {
-    text-align: center;
-  }
-
-  .boton p
-  {
-    /*border: 2px solid red;*/
-    width: 60%;
-    font-size: 20px;
-  }
-
-  footer
-  {
-    height: 100%;
-  }
-
-  .cuadropiemapa
-  {
-    display: none;
-  }
-
-  .cuadropie, .cuadropiecopy
-  {
-    width: 100%;
-    margin: 2% auto;
-    padding: 10px;
-    /*border: 2px solid red;*/
-    /*text-align: center;*/
-  }
-
-  .cuadropie .text_direccion, .copy
-  {
-    font-size: 20px;
-    /*border: 2px solid red;*/
-  }
-
-  /************INICIA SERVICIO****************/
-  .bannerser
-  {
-    /*border: 2px solid red;*/
-    background-size: 100% 100%;
-  }
-
-  .titulocont p
-  {
-    /*border: 2px solid green;*/
-    width: 100%;
-  }
-
-  .ser, .ser2
-  {
-    width: 100%;
-  }
-
-
-  .ser
-  {
-    text-align: center;
-  }
-
-  .publicidad, .publicidad2
-  {
-    /*border: 2px solid blue;*/
-    width: 100%;
-    margin: 2% 0px;
-  }
-
-  .perifoneo, .marketing, .e-marketing,
-  .carteleras, .toldos, .anuncios
-  {
-    width: 100%;
-    margin: 2% 0px;
-  }
-
-  /*********************INICIA CONTACTO**************/
-  .contenedor-inputs input
-  {
-    /*border: 2px solid green;*/
-    width: 400%;
-  }
+    .contenedor {
+        z-index: 1000;
+        position: absolute;
+        left: 5%;
+        background: rgba(57, 161, 227, 0.92);
+        display: none;
+    }
+    .oculto {
+        display: block;
+    }
+    .menu-responsive {
+        background: rgba(57, 161, 227, 0.92);
+        color: #fff;
+        display: block;
+    }
+    .menu-responsive p {
+        width: 78%;
+        display: inline-block;
+        padding: 20px;
+        font-size: 25px;
+    }
+    .menu-responsive span {
+        display: inline-block;
+        width: 20%;
+        text-align: center;
+        margin-top: 6%;
+    }
+    .icon-bars {
+        font-size: 30px;
+    }
+    .nav {
+        width: 100%;
+    }
+    .nav .menu .menu_item {
+        width: 100%;
+        text-align: center;
+        height: 100%;
+    }
+    .menu_item a {
+        width: 100%;
+        height: 100%;
+        display: block;
+    }
+    .logo {
+        width: 55%;
+        margin: 10% 0% 0% 0%;
+    }
+    .slogan p {
+        /*display: none;*/
+        width: 60%;
+        margin: 0px;
+        text-align: center;
+    }
+    /*****************Inicia Nosotros*****************/
+    .logodos {
+        /*border: 2px solid red;*/
+        width: 60%;
+        margin: 0 auto;
+        text-align: center;
+        float: none;
+    }
+    .logodos img {
+        /*border: 2px solid red;*/
+        width: 70%;
+    }
+    .bannernos {
+        height: 100px;
+    }
+    .titulonos p {
+        width: 100%;
+        /*border: 2px solid green;*/
+        font-size: 25px;
+    }
+    .contentexp {
+        /*border: 2px solid red;*/
+        width: 90%;
+    }
+    .contenpuntos {
+        /*border: 2px solid yellow;*/
+        height: 100%;
+        /*background-size: 100% 100%;*/
+        background: none;
+    }
+    .conteniconos {
+        /*border: 2px solid red;*/
+        width: 100%;
+        margin: 0px;
+        height: 100%;
+    }
+    .iconotexto {
+        /*border: 2px solid green;*/
+        width: 90%;
+        margin: 5% auto;
+    }
+    .icono {
+        text-align: center;
+        width: 100%;
+    }
+    .texton {
+        width: 100%;
+    }
+    .texton .calidad {
+        text-align: center;
+    }
+    .mision {
+        /*border: 2px solid red;*/
+        border-radius: 10px;
+        width: 100%;
+        margin: 5% auto;
+    }
+    .calidad {
+        text-align: center;
+    }
+    .boton p {
+        /*border: 2px solid red;*/
+        width: 60%;
+        font-size: 20px;
+    }
+    footer {
+        height: 100%;
+    }
+    .cuadropiemapa {
+        display: none;
+    }
+    .cuadropie,
+    .cuadropiecopy {
+        width: 100%;
+        margin: 2% auto;
+        padding: 10px;
+        /*border: 2px solid red;*/
+        /*text-align: center;*/
+    }
+    .cuadropie .text_direccion,
+    .copy {
+        font-size: 20px;
+        /*border: 2px solid red;*/
+    }
+    /************INICIA SERVICIO****************/
+    .bannerser {
+        /*border: 2px solid red;*/
+        background-size: 100% 100%;
+    }
+    .titulocont p {
+        /*border: 2px solid green;*/
+        width: 100%;
+    }
+    .ser,
+    .ser2 {
+        width: 100%;
+    }
+    .ser {
+        text-align: center;
+    }
+    .publicidad,
+    .publicidad2 {
+        /*border: 2px solid blue;*/
+        width: 100%;
+        margin: 2% 0px;
+    }
+    .perifoneo,
+    .marketing,
+    .e-marketing,
+    .carteleras,
+    .toldos,
+    .anuncios {
+        width: 100%;
+        margin: 2% 0px;
+    }
+    /*********************INICIA CONTACTO**************/
+    .contenedor-inputs input {
+        /*border: 2px solid green;*/
+        width: 400%;
+    }
 }
 
 @media screen and (max-width: 1023px) and (min-width: 800px) {
-
-  .contenedor nav
-  {
-    width: 100%;
-    text-align: center;
-  }
-
-  /******************INICIA NOSOTROS**************/
-  .logodos
-  {
-    /*border: 2px solid red;*/
-    display: inline-block;
-    width: 20%;
-    margin: 0px 5% 0px 0px;
-  }
-
-  .titulonos p
-  {
-    width: 100%;
-    /*border: 2px solid green;*/
-    font-size: 25px;
-  }
-
-
-  .mision
-  {
-    /*border: 2px solid red;*/
-    border-radius: 10px;
-    width: 100%;
-    margin: 5% auto;
-  }
-
-  .calidad
-  {
-    text-align: center;
-  }
-
-  .boton p
-  {
-    width: 50%;
-    font-size: 20px;
-  }
-
-  footer
-  {
-    height: 100%;
-  }
-
-  .cuadropiemapa
-  {
-    display: none;
-  }
-
-  .cuadropie, .cuadropiecopy
-  {
-    width: 100%;
-    margin: 2% auto;
-    padding: 10px;
-    /*border: 2px solid red;*/
-    /*text-align: center;*/
-  }
-
-  .cuadropie .text_direccion, .copy
-  {
-    font-size: 22px;
-    /*border: 2px solid red;*/
-  }
-
-
-  /**********************INICIA SERVICIOS****************/
-
-  .ser
-  {
-    /*border: 2px solid red;*/
-    width: 100%;
-    margin: 0px;
-  }
-
-  .publicidad, .publicidad2
-  {
-    /*border: 2px solid blue;*/
-    width: 48%;
-    margin: 1%;
-  }
-
-  .perifoneo, .marketing, .e-marketing,
-  .carteleras, .toldos, .anuncios
-  {
-    width: 100%;
-    margin: 2% 0px;
-  }
-
-
-  /************Inicia Contacto************/
-  .titulocont p
-  {
-    /*border: 2px solid red;*/
-    width: 100%;
-    padding: 0px 2%;
-  }
-
-  form
-  {
-    /*border: 2px solid red;*/
-    width: 100%;
-  }
+    .contenedor nav {
+        width: 100%;
+        text-align: center;
+    }
+    /******************INICIA NOSOTROS**************/
+    .logodos {
+        /*border: 2px solid red;*/
+        display: inline-block;
+        width: 20%;
+        margin: 0px 5% 0px 0px;
+    }
+    .titulonos p {
+        width: 100%;
+        /*border: 2px solid green;*/
+        font-size: 25px;
+    }
+    .mision {
+        /*border: 2px solid red;*/
+        border-radius: 10px;
+        width: 100%;
+        margin: 5% auto;
+    }
+    .calidad {
+        text-align: center;
+    }
+    .boton p {
+        width: 50%;
+        font-size: 20px;
+    }
+    footer {
+        height: 100%;
+    }
+    .cuadropiemapa {
+        display: none;
+    }
+    .cuadropie,
+    .cuadropiecopy {
+        width: 100%;
+        margin: 2% auto;
+        padding: 10px;
+        /*border: 2px solid red;*/
+        /*text-align: center;*/
+    }
+    .cuadropie .text_direccion,
+    .copy {
+        font-size: 22px;
+        /*border: 2px solid red;*/
+    }
+    /**********************INICIA SERVICIOS****************/
+    .ser {
+        /*border: 2px solid red;*/
+        width: 100%;
+        margin: 0px;
+    }
+    .publicidad,
+    .publicidad2 {
+        /*border: 2px solid blue;*/
+        width: 48%;
+        margin: 1%;
+    }
+    .perifoneo,
+    .marketing,
+    .e-marketing,
+    .carteleras,
+    .toldos,
+    .anuncios {
+        width: 100%;
+        margin: 2% 0px;
+    }
+    /************Inicia Contacto************/
+    .titulocont p {
+        /*border: 2px solid red;*/
+        width: 100%;
+        padding: 0px 2%;
+    }
+    form {
+        /*border: 2px solid red;*/
+        width: 100%;
+    }
 }
 
-@media screen and (max-width: 1280px) and (min-width: 1024px) {      /* mac*/
-
-  .contenedor
-  {
-    width: 100%;
-    display: block;
-  }
-
-  .contenedor nav
-  {
-    /*border: 2px solid red;*/
-    width: 90%;
-    margin: 0 auto;
-  }
-
-  .menu-responsive
-  {
-    display: none;
-  }
-  /*.contenedor
+@media screen and (max-width: 1280px) and (min-width: 1024px) {
+    /* mac*/
+    .contenedor {
+        width: 100%;
+        display: block;
+    }
+    .contenedor nav {
+        /*border: 2px solid red;*/
+        width: 90%;
+        margin: 0 auto;
+    }
+    .menu-responsive {
+        display: none;
+    }
+    /*.contenedor
   {
     width: 70%;
     margin: 3% auto;
     display: inline-block;
   }*/
-
-  .logodos
-  {
-    /*border: 2px solid red;*/
-    display: inline-block;
-    width: 20%;
-    margin: 0px 5% 0px 0px;
-  }
-
-  .titulonos p
-  {
-    width: 100%;
-    /*border: 2px solid green;*/
-    font-size: 25px;
-  }
-
-  /**********************INICIA SERVICIOS****************/
-
-  .ser
-  {
-    /*border: 2px solid red;*/
-    width: 100%;
-    margin: 0px;
-  }
-
-  .publicidad, .publicidad2
-  {
-    /*border: 2px solid blue;*/
-    width: 48%;
-    margin: 1%;
-  }
-
-
-  .ser2
-  {
-    /*border: 2px solid red;*/
-    width: 100%;
-  }
-
-  .perifoneo, .marketing, .e-marketing,
-  .carteleras, .toldos, .anuncios
-  {
-    width: 32%;
-    margin: 2% 0px;
-  }
-
+    .logodos {
+        /*border: 2px solid red;*/
+        display: inline-block;
+        width: 20%;
+        margin: 0px 5% 0px 0px;
+    }
+    .titulonos p {
+        width: 100%;
+        /*border: 2px solid green;*/
+        font-size: 25px;
+    }
+    /**********************INICIA SERVICIOS****************/
+    .ser {
+        /*border: 2px solid red;*/
+        width: 100%;
+        margin: 0px;
+    }
+    .publicidad,
+    .publicidad2 {
+        /*border: 2px solid blue;*/
+        width: 48%;
+        margin: 1%;
+    }
+    .ser2 {
+        /*border: 2px solid red;*/
+        width: 100%;
+    }
+    .perifoneo,
+    .marketing,
+    .e-marketing,
+    .carteleras,
+    .toldos,
+    .anuncios {
+        width: 32%;
+        margin: 2% 0px;
+    }
 }
-@media screen and (max-width: 1366px) and (min-width: 1024px) { }
 
-@media screen and (min-width: 1367px) { }
+@media screen and (max-width: 1366px) and (min-width: 1024px) {}
+
+@media screen and (min-width: 1367px) {}
