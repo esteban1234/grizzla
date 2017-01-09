@@ -11,7 +11,7 @@
 <article class="bannercont" style="display:none;"></article>
 <article class="titulocont" style="display:none;"><p>Gracias por ser su primera opción. Escribanos cualquier comentario por este medio.</p></article>
 
-<form action="" method="post" class="form-register scrollflow -slide-left -opacity" style="display:none;">
+<form action="envia.php" method="post" class="form-register scrollflow -slide-left -opacity" style="display:none;">
 	<h2 class="form_titulo">GRIZZLA</h2>
 	<div class="contenedor-inputs">
 		<input type="text" name="nombre" placeholder="Nombre" class="input-48" required=>
