@@ -169,7 +169,8 @@
     /*********************INICIA CONTACTO**************/
     .bannercont {
         display: none;
-        border: 2px solid red;
+        height: 0px;
+        /*border: 2px solid red;*/
     }
     .contenedor-inputs input {
         /*border: 2px solid green;*/
@@ -350,6 +351,7 @@
     /*********************INICIA CONTACTO**************/
     .bannercont {
         display: none;
+        height: 0px;
     }
     .contenedor-inputs input {
         /*border: 2px solid green;*/
@@ -531,11 +533,10 @@
         margin: 2% 0px;
     }
     /*********************INICIA CONTACTO**************/
-    .bannercont
-    {
-      display: none;
+    .bannercont {
+        display: none;
+        height: 0px;
     }
-
     .contenedor-inputs input {
         /*border: 2px solid green;*/
         width: 400%;
