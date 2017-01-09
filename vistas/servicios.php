@@ -42,7 +42,7 @@
 					<li>Laminados</li>
 				</article>
 			</article>
-		</article>		
+		</article>
 	</article>
 
 <article class="ser2 scrollflow -slide-left -opacity">
@@ -96,6 +96,7 @@
 
 
 <script src="../js/jquery.js"></script>
+<script src="../js/menu.js"></script>
 <script src="../js/eskju.jquery.scrollflow.min.js"></script>
 <script type="text/javascript" src="../js/iconoarriba.js"></script>
 <script type="text/javascript">

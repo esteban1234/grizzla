@@ -1,68 +1,58 @@
-* {
-    border: 0;
-    margin: 0;
-    padding: 0;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-}
-
-
-/*p {
-    outline: 2px red solid;
-}*/
-
-
-/*header*/
-
 .header {
     width: 100%;
     border-bottom: 5px #CB4717 solid;
-    height: 100px;
-    /*margin-top: 2%;*/
-    background-color: #f39c12;
+    /*height: 100px;*/
+    /*height: 0 auto;*/
     overflow: hidden;
+    background-color: #f39c12;
 }
 
-.logodos,
-.contenedor {}
+#cerrar2{
+  display: none;
+}
 
-.contenedor {
-    /*outline: 2px yellow solid;*/
+.contenedor2 {
     width: 50%;
-    /*margin: 0 auto;*/
     margin-top: 3%;
     float: left;
     margin-left: 10%;
 }
 
-.nav {
+#cerrar{
+  display: none;
+  /*border: 2px solid red;*/
+}
+
+.menu-responsive2
+{
+  display: none;
+  /*border: 2px solid red;*/
+}
+
+.nav2 {
     width: 100%;
-    /*outline: 2px green solid;*/
     top: 0;
     left: 0%;
 }
 
-.menu {
+.menu2 {
     list-style: none;
     padding: 0;
     margin: 0;
 }
 
-.menu_item {
+.menu_item2 {
     display: inline-block;
 }
 
-.menu_link {
+.menu_link2 {
     position: relative;
     list-style: none;
     padding: 15px;
     text-decoration: none;
     color: #fff;
     font-size: 20px;
-    /*background-color: #fba919;*/
     font-family: 'Open Sans', sans-serif;
-    /*vertical-align: top;*/
     -webkit-transition: all 1s ease;
     -moz-transition: all 1s ease;
     -o-transition: all 1s ease;
@@ -70,7 +60,7 @@
     transition: all 1s ease;
 }
 
-.menu_link:hover {
+.menu_link2:hover {
     background-color: #CB4717;
     color: #6A1513;
 }
@@ -78,13 +68,11 @@
 .select {
     background-color: #6A1513;
     color: #fff;
-    /*vertical-align: top;*/
 }
 
 .grizzla {
     width: 180px;
-    height: 100px;
-    /*outline: 2px red solid;*/
+    height: 70px;
 }
 
 .logodos {
@@ -666,3 +654,241 @@ input {
 .areac:focus {
     height: 100px;
 }
+
+
+@media screen and (max-width: 480px){
+
+  .header
+  {
+    width: 100%;
+    margin: 0px;
+  }
+  .contenedor2
+  {
+    width: 100%;
+    margin: 0px;
+    overflow: hidden;
+    display: none;
+  }
+
+  .contenedor2 .menu2 li
+  {
+    /*display: block;*/
+    width: 100%;
+  }
+
+  .contenedor2 .menu2 li a
+  {
+    /*border: 2px solid green;*/
+    width: 100%;
+    display: block;
+    text-align: center;
+  }
+
+
+  #cerrar2
+  {
+    font-size: 25px;
+    width: 10%;
+    text-align: center;
+    font-weight: bold;
+    display: none;
+    cursor: pointer;
+  }
+
+  .menu-responsive2
+  {
+    display: block;
+    text-align: center;
+    cursor: pointer;
+  }
+
+  .menu-responsive2 p, .menu-responsive2 span
+  {
+    /*border: 2px solid green;*/
+    display: inline-block;
+  }
+
+  .menu-responsive2 p
+  {
+    width: 50%;
+    font-size: 25px;
+    font-weight: bold;
+  }
+
+  .menu-responsive2 span
+  {
+    /*padding-top: 10}%;*/
+    vertical-align: top;
+    margin-top: 6%;
+  }
+
+}
+
+@media screen and (max-width: 599px) and (min-width: 481px) {
+  .header
+  {
+    width: 100%;
+    margin: 0px;
+  }
+  .contenedor2
+  {
+    width: 100%;
+    margin: 0px;
+    overflow: hidden;
+    display: none;
+  }
+
+  .contenedor2 .menu2 li
+  {
+    /*display: block;*/
+    width: 100%;
+  }
+
+  .contenedor2 .menu2 li a
+  {
+    /*border: 2px solid green;*/
+    width: 100%;
+    display: block;
+    text-align: center;
+  }
+
+
+  #cerrar2
+  {
+    font-size: 25px;
+    width: 10%;
+    text-align: center;
+    font-weight: bold;
+    display: none;
+    cursor: pointer;
+  }
+
+  .menu-responsive2
+  {
+    display: block;
+    text-align: center;
+    cursor: pointer;
+  }
+
+  .menu-responsive2 p, .menu-responsive2 span
+  {
+    /*border: 2px solid green;*/
+    display: inline-block;
+  }
+
+  .menu-responsive2 p
+  {
+    width: 35%;
+    font-size: 25px;
+    font-weight: bold;
+  }
+
+  .menu-responsive2 span
+  {
+    /*padding-top: 10}%;*/
+    vertical-align: top;
+    margin-top: 4%;
+  }
+}
+
+@media screen and (max-width: 799px) and (min-width: 600px) {
+  .header
+  {
+    width: 100%;
+    margin: 0px;
+  }
+  .contenedor2
+  {
+    width: 100%;
+    margin: 0px;
+    overflow: hidden;
+    display: none;
+  }
+
+  .contenedor2 .menu2 li
+  {
+    /*display: block;*/
+    width: 100%;
+  }
+
+  .contenedor2 .menu2 li a
+  {
+    /*border: 2px solid green;*/
+    width: 100%;
+    display: block;
+    text-align: center;
+  }
+
+
+  #cerrar2
+  {
+    font-size: 25px;
+    width: 10%;
+    text-align: center;
+    font-weight: bold;
+    display: none;
+    cursor: pointer;
+  }
+
+  .menu-responsive2
+  {
+    display: block;
+    text-align: center;
+    cursor: pointer;
+    /*border: 2px solid red;*/
+  }
+
+  .menu-responsive2 p, .menu-responsive2 span
+  {
+    /*border: 2px solid green;*/
+    display: inline-block;
+  }
+
+  .menu-responsive2 p
+  {
+    width: 30%;
+    font-size: 25px;
+    font-weight: bold;
+  }
+
+  .menu-responsive2 span
+  {
+    /*padding-top: 10}%;*/
+    vertical-align: top;
+    margin-top: 3%;
+  }
+}
+
+@media screen and (max-width: 1023px) and (min-width: 800px) {
+  .menu-responsive2
+  {
+    display: none;
+  }
+
+  .contenedor2
+  {
+    width: 70%;
+    margin: 2% 0%;
+  }
+
+  .contenedor2 nav
+  {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1280px) and (min-width: 1024px) {      /* mac*/
+  .contenedor2
+  {
+    width: 65%;
+  }
+
+  .contenedor2 nav
+  {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 1366px) and (min-width: 1024px) { }
+
+@media screen and (min-width: 1367px) { }

@@ -30,13 +30,11 @@ html {
 
 .header {
     width: 100%;
-    /*outline: 2px red solid;*/
     height: 60px;
     margin-top: 2%;
 }
 
 .contenedor {
-    /*outline: 2px yellow solid;*/
     width: 90%;
     margin: 0 auto;
 }
@@ -80,14 +78,11 @@ html {
     color: #CB4717;
 }
 
-.oculto{
-  display: none;
-}
-
-.menu-responsive
+.oculto, .menu-responsive
 {
   display: none;
 }
+
 
 .select {
     background-color: white;

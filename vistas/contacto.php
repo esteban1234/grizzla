@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 
 <?php include 'headdos.php';?>
 
@@ -34,6 +33,7 @@
 
 
 <script src="../js/jquery.js"></script>
+<script src="../js/menu.js"></script>
 <script src="../js/eskju.jquery.scrollflow.min.js"></script>
 <script type="text/javascript" src="../js/iconoarriba.js"></script>
 
