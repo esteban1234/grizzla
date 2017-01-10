@@ -327,6 +327,8 @@
         width: 100%;
         margin: 2% 0px;
     }
+
+
     .perifoneo,
     .marketing,
     .e-marketing,
@@ -405,7 +407,7 @@
     .logodos {
         display: none;
     }
-    
+
     .logodos img {
         /*border: 2px solid red;*/
         width: 70%;
@@ -504,10 +506,20 @@
     }
     .publicidad,
     .publicidad2 {
-        /*border: 2px solid blue;*/
         width: 100%;
         margin: 2% 0px;
     }
+
+    .publicidad2 img, .publicidad img
+    {
+      width: 70%;
+    }
+
+    .puntospu
+    {
+      text-align: left;
+    }
+
     .perifoneo,
     .marketing,
     .e-marketing,
