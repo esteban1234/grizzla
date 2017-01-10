@@ -34,7 +34,6 @@
 
 .menu-responsive2 {
     display: none;
-    /*border: 2px solid red;*/
 }
 
 .nav2 {
@@ -699,16 +698,12 @@ input {
     .menu-responsive2 span {
         /*border: 2px solid green;*/
         display: inline-block;
+        vertical-align: top;
     }
     .menu-responsive2 p {
         width: 50%;
         font-size: 25px;
         font-weight: bold;
-    }
-    .menu-responsive2 span {
-        /*padding-top: 10}%;*/
-        vertical-align: top;
-        margin-top: 6%;
     }
 }
 
@@ -750,16 +745,12 @@ input {
     .menu-responsive2 span {
         /*border: 2px solid green;*/
         display: inline-block;
+        vertical-align: top;
     }
     .menu-responsive2 p {
-        width: 35%;
+        width: 20%;
         font-size: 25px;
         font-weight: bold;
-    }
-    .menu-responsive2 span {
-        /*padding-top: 10}%;*/
-        vertical-align: top;
-        margin-top: 4%;
     }
 }
 
@@ -796,24 +787,18 @@ input {
         display: block;
         text-align: center;
         cursor: pointer;
-        /*border: 2px solid red;*/
     }
     .menu-responsive2 p,
     .menu-responsive2 span {
         /*border: 2px solid green;*/
         display: inline-block;
+        vertical-align: top;
     }
     .menu-responsive2 p {
-        width: 30%;
+        width: 20%;
         font-size: 25px;
         font-weight: bold;
-    }
-    .menu-responsive2 span {
-        /*padding-top: 10}%;*/
-        vertical-align: top;
-        margin-top: 3%;
-    }
-}
+    }}
 
 @media screen and (max-width: 1023px) and (min-width: 800px) {
     .menu-responsive2 {

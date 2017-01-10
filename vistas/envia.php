@@ -7,6 +7,7 @@ $mail = new PHPMailer();
 // Recoger los valores del Formulario
 
 $nombre = $_POST['nombre'];
+$apellido = $_POST['apellido'];
 $telefono = $_POST['telefono'];
 $correo = $_POST['correo'];
 $comentario = $_POST['comentario'];
@@ -14,7 +15,7 @@ $comentario = $_POST['comentario'];
 $mail->CharSet = 'utf-8';
 //From email address and name
 $mail->From = $correo;
-$mail->FromName = $nombre;
+$mail->FromName = $nombre.' '.$apellido;
 
 //To address and name
 $mail->addAddress("info@grizzla.com.mx");

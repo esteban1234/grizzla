@@ -45,6 +45,7 @@
     .logo {
         width: 55%;
         margin: 15% 0%;
+        /*border: 2px solid red;*/
     }
     .slogan p {
         display: none;
@@ -54,10 +55,7 @@
     }
     /*****************Inicia Nosotros*****************/
     .logodos {
-        /*border: 2px solid red;*/
-        width: 100%;
-        margin: 0px;
-        text-align: center;
+        display: none;
     }
     .logodos img {
         /*border: 2px solid red;*/
@@ -119,7 +117,7 @@
         font-size: 20px;
     }
     footer {
-        height: 100%;
+        height: 65%;
     }
     .cuadropiemapa {
         display: none;
@@ -132,12 +130,10 @@
     }
     /************INICIA SERVICIO****************/
     .bannerser {
-        /*border: 2px solid red;*/
-        background-size: 100% 100%;
-        /*display: none;*/
+        display: none;
+        height: 0px;
     }
     .titulocont p {
-        /*border: 2px solid green;*/
         width: 100%;
     }
     .ser,
@@ -146,15 +142,19 @@
     }
     .publicidad,
     .publicidad2 {
-        /*border: 2px solid blue;*/
         width: 100%;
         margin: 2% 0px;
     }
 
-    .publicidad img, .publicidad2 img
+    .publicidad img, .publicidad2 img,.puntospu
     {
-      /*border: 2px solid red;*/
-      width: 60%;
+      width: 100%;
+      margin: 0px;
+    }
+
+    .puntospu
+    {
+      padding-left: 30%;
     }
 
     .perifoneo,
@@ -234,20 +234,15 @@
     }
     /*****************Inicia Nosotros*****************/
     .logodos {
-        /*border: 2px solid red;*/
-        width: 70%;
-        margin: 0 auto;
-        text-align: center;
-        float: none;
+        display: none;
     }
     .logodos img {
         /*border: 2px solid red;*/
         width: 70%;
     }
 
-    .bannernos{
+    .bannernos, .bannerser{
         display: none;
-        /*border: 2px solid red;*/
         height: 0px;
     }
 
@@ -297,7 +292,6 @@
         text-align: center;
     }
     .boton p {
-        /*border: 2px solid red;*/
         width: 60%;
         font-size: 20px;
     }
@@ -312,21 +306,16 @@
         width: 100%;
         margin: 2% auto;
         padding: 10px;
-        /*border: 2px solid red;*/
-        /*text-align: center;*/
     }
     .cuadropie .text_direccion {
         font-size: 20px;
-        /*border: 2px solid red;*/
     }
     /************INICIA SERVICIO****************/
     .bannerser {
-        /*border: 2px solid red;*/
-        background-size: 100% 100%;
-        /*display: none;*/
+        height: 0px;
+        display: none;
     }
     .titulocont p {
-        /*border: 2px solid green;*/
         width: 100%;
     }
     .ser,
@@ -335,7 +324,6 @@
     }
     .publicidad,
     .publicidad2 {
-        /*border: 2px solid blue;*/
         width: 100%;
         margin: 2% 0px;
     }
@@ -415,12 +403,9 @@
     }
     /*****************Inicia Nosotros*****************/
     .logodos {
-        /*border: 2px solid red;*/
-        width: 60%;
-        margin: 0 auto;
-        text-align: center;
-        float: none;
+        display: none;
     }
+    
     .logodos img {
         /*border: 2px solid red;*/
         width: 70%;
@@ -503,7 +488,7 @@
     }
     /************INICIA SERVICIO****************/
     .bannerser {
-        /*border: 2px solid red;*/
+        height: 0px;
         background-size: 100% 100%;
     }
     .titulocont p {

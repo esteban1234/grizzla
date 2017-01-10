@@ -15,7 +15,7 @@
 	<h2 class="form_titulo">GRIZZLA</h2>
 	<div class="contenedor-inputs">
 		<input type="text" name="nombre" placeholder="Nombre" class="input-48" required=>
-		<input type="text" name="apellidos" placeholder="Apellidos" class="input-48" required>
+		<input type="text" name="apellido" placeholder="Apellidos" class="input-48" required>
 		<!-- <input type="email" name="correo" placeholder="Correo" class="input-100" required> -->
 		<input type="email" name="correo" placeholder="Correo" class="input-48" required>
 		<input type="text" name="telefono" placeholder="Teléfono" class="input-48" required>
@@ -24,13 +24,7 @@
 	</div>
 </form>
 
-
-
 <?php include 'pie.php';?>
-
-
-
-
 
 <script src="../js/jquery.js"></script>
 <script src="../js/menu.js"></script>

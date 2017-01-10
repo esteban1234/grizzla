@@ -26,5 +26,5 @@
 			Derechos de autor 2016© | GRIZZLA ALTA PUBLICIDAD S. de R.L de C.V.
 		</p>
 	</article>
-	
+
 </footer>
